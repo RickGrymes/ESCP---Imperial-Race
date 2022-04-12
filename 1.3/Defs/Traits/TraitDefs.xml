@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Colovian -->
+
+  <TraitDef>
+    <defName>ESCP_Imperial_Colovian</defName>
+    <degreeDatas>
+      <li>
+        <label>Colovian</label>
+        <description>{PAWN_nameDef} is of Colovian blood, hailing from the western part of Cyrodiil. {PAWN_nameDef} is proud of their heritage and the honor that bestows them, be it adventuring across Tamriel or serving honorably in the mighty Imperial Legions.</description>
+        <statOffsets>
+          <MeleeHitChance>2</MeleeHitChance>
+        </statOffsets>
+        <skillGains>
+          <li>
+            <key>Melee</key>
+            <value>3</value>
+          </li>
+          <li>
+            <key>Shooting</key>
+            <value>2</value>
+          </li>
+          <li>
+            <key>Intellectual</key>
+            <value>-2</value>
+          </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>ESCP_Imperial_Heartlander</li>
+      <li>Wimp</li>
+      <li>ESCP_Imperial_Nibenese</li>
+    </conflictingTraits>
+    <requiredWorkTags>
+      <li>Shooting</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <conflictingPassions>
+      <li>Plants</li>
+    </conflictingPassions>
+  </TraitDef>
+
+  <!-- Nibenese -->
+
+  <TraitDef>
+    <defName>ESCP_Imperial_Nibenese</defName>
+    <degreeDatas>
+      <li>
+        <label>Nibenese</label>
+        <description>{PAWN_nameDef} comes from the lands around the bay of Nibenay, hailing from the eastern part of Cyrodiil. {PAWN_nameDef} is always looking for ways to make more septims or create something new in order to gain an advantage over someone else.</description>
+        <skillGains>
+          <li>
+            <key>Social</key>
+            <value>1</value>
+          </li>
+          <li>
+            <key>Crafting</key>
+            <value>2</value>
+          </li>
+          <li>
+            <key>Melee</key>
+            <value>-2</value>
+          </li>
+          <li>
+            <key>Shooting</key>
+            <value>-2</value>
+          </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>ESCP_Imperial_Heartlander</li>
+      <li>Brawler</li>
+      <li>ESCP_Imperial_Colovian</li>
+    </conflictingTraits>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <conflictingPassions>
+      <li>Shooting</li>
+    </conflictingPassions>
+  </TraitDef>
+
+  <!-- Heartlander -->
+
+  <TraitDef>
+    <defName>ESCP_Imperial_Heartlander</defName>
+    <degreeDatas>
+      <li>
+        <label>Heartlander</label>
+        <description>{PAWN_nameDef} is true Imperial, coming from the heartlands of Cyrodiil and more specifically the area around the Imperial City and Imperial Isle. {PAWN_nameDef} is a Heartlander, a true heir of Cyrodiil and worthy of the glory of the Empire.</description>
+        <statOffsets>
+          <MeleeHitChance>2</MeleeHitChance>
+        </statOffsets>
+        <skillGains>
+          <li>
+            <key>Melee</key>
+            <value>4</value>
+          </li>
+          <li>
+            <key>Social</key>
+            <value>2</value>
+          </li>
+          <li>
+            <key>Intellectual</key>
+            <value>3</value>
+          </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+    <conflictingTraits>
+      <li>ESCP_Imperial_Colovian</li>
+      <li>Wimp</li>
+      <li>ESCP_Imperial_Nibenese</li>
+    </conflictingTraits>
+    <requiredWorkTags>
+      <li>Shooting</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <conflictingPassions>
+    </conflictingPassions>
+  </TraitDef>
+
+</Defs>

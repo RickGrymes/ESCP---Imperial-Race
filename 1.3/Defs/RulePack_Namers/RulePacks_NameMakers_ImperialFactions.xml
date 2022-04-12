@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- colonies -->
+	
+	<RulePackDef>
+		<defName>ESCP_NamerSettlementImperialColonies</defName>
+		<include>
+		  <li>TribalWordUtility</li>
+		</include>
+		<rulePack>
+		  <rulesStrings>
+			<li>r_name->[Animal] [TerrainFeature]</li>
+		  </rulesStrings>
+		  <rulesFiles>
+		  </rulesFiles>
+		</rulePack>
+	</RulePackDef>
+  
+	<!-- <RulePackDef>
+		<defName>ESCP_NamerFactionImperialColonies</defName>
+		<rulePack>
+		  <rulesStrings>
+			<li>r_name->Imperial Colonies of [ImperialGods]</li>
+		  </rulesStrings>
+		  <rulesFiles>
+			<li>ImperialGods->ESCP_ImperialNames/ImperialGods</li>
+		  </rulesFiles>
+		</rulePack>
+	</RulePackDef> -->
+	
+	<!-- Legion -->
+	
+	<RulePackDef>
+		<defName>ESCP_NamerSettlementImperialLegion</defName>
+		<include>
+		  <li>TribalWordUtility</li>
+		</include>
+		<rulePack>
+		  <rulesStrings>
+			<li>r_name(p=1)->[ImperialForts]</li>
+			<li>r_name(p=0.1)->Fort [ImperialGods]</li>
+			<li>r_name(p=0.05)->Fort [ImperialCities]</li>
+		  </rulesStrings>
+		  <rulesFiles>
+			<li>ImperialForts->ESCP_ImperialNames/ImperialForts</li>
+		  </rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	  
+	<!-- <RulePackDef>
+		<defName>ESCP_NamerFactionImperialLegion</defName>
+		<include>
+		  <li>TribalWordUtility</li>
+		</include>
+		<rulePack>
+		  <rulesStrings>
+			<li>r_name->the [Color] legion</li>
+		  </rulesStrings>
+		  <rulesFiles>
+		  </rulesFiles>
+		</rulePack>
+	</RulePackDef> -->
+	
+	<!-- Colovian Namers -->
+	
+	<RulePackDef>
+		<defName>ESCP_NamerSettlementColovian</defName>
+		<rulePack>
+		  <rulesStrings>
+			<li>r_name(p=1)->[ColovianCities]</li>
+			<li>r_name(p=0.3)->Fort [FamilyList]</li>
+			<li>r_name(p=0.3)->[FamilyList] Estate</li>
+			<li>r_name(p=0.3)->[FamilyList] Vineyard</li>
+		  </rulesStrings>
+		  <rulesFiles>
+			<li>ColovianCities->ESCP_ImperialNames/ColovianCities</li>
+            <li>FamilyList->ESCP_ImperialNames/ImperialFamily</li>
+		  </rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<!-- Nibenese Namers -->
+	
+	<RulePackDef>
+		<defName>ESCP_NamerSettlementNibenese</defName>
+		<rulePack>
+		  <rulesStrings>
+			<li>r_name(p=1)->[NibeneseCities]</li>
+			<li>r_name(p=0.3)->Castle [FamilyList]</li>
+			<li>r_name(p=0.3)->[FamilyList] Manor</li>
+		  </rulesStrings>
+		  <rulesFiles>
+			<li>NibeneseCities->ESCP_ImperialNames/NibeneseCities</li>
+            <li>FamilyList->ESCP_ImperialNames/ImperialFamily</li>
+		  </rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<!-- Raider Namers -->
+	
+	<RulePackDef>
+		<defName>ESCP_NamerSettlementRaider</defName>
+		<rulePack>
+		  <rulesStrings>
+			<li>r_name(p=1)->[ColovianCities] Deserters</li>
+			<li>r_name(p=1)->[NibeneseCities] Deserters</li>
+			<li>r_name(p=0.3)->[FamilyList]'s Raiders</li>
+			<li>r_name(p=1)->[ColovianCities] Raiders</li>
+			<li>r_name(p=)->[NibeneseCities] Raiders</li>
+		  </rulesStrings>
+		  <rulesFiles>
+			<li>NibeneseCities->ESCP_ImperialNames/NibeneseCities</li>
+			<li>ColovianCities->ESCP_ImperialNames/ColovianCities</li>
+            <li>FamilyList->ESCP_ImperialNames/ImperialFamily</li>
+		  </rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<!-- __________________________________________________________________________ Generic __________________________________________________________________________ -->
+
+	<!-- <RulePackDef>
+		<defName>ESCP_NamerFactionImperial</defName>
+		<include>
+		  <li>TribalWordUtility</li>
+		</include>
+		<rulePack>
+		  <rulesStrings>
+			<li>r_name->Imperial settlements of the [Color] [Animal]</li>
+		  </rulesStrings>
+		  <rulesFiles>
+			<li>a->ESCP_ImperialNames/ImperialFactionA</li>
+			<li>b->ESCP_ImperialNames/ImperialFactionB</li>
+		  </rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ESCP_NamerFactionImperialRaider</defName>
+		<include>
+		  <li>TribalWordUtility</li>
+		</include>
+		<rulePack>
+		  <rulesStrings>
+			<li>r_name->[ImperialCities] Deserters</li>
+			<li>r_name->[FamilyList]'s Hansa</li>
+			<li>r_name->[FamilyList]'s Raiders</li>
+			<li>r_name->[ImperialCities] Raiders</li>
+		  </rulesStrings>
+		  <rulesFiles>
+			<li>ImperialCities->ESCP_ImperialNames/ImperialCities</li>
+			<li>FamilyList->ESCP_ImperialNames/ImperialFamily</li>
+		  </rulesFiles>
+		</rulePack>
+	</RulePackDef> -->
+
+</Defs>

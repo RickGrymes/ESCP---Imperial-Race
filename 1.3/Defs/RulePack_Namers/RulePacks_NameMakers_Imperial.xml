@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>ESCP_NamerPersonImperialMale</defName>
+		<include>
+		  <li>TribalWordUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[MaleList] [FamilyList]</li>
+				<li>name(p=0.05)->[MaleList] of [ColovianCities]' [FamilyList]</li>
+				<li>name(p=0.05)->[MaleList] of [NibeneseCities]' [FamilyList]</li>
+				<li>name(p=0.05)->[MaleList] [FamilyList]</li>
+				<li>name(p=0.05)->[MaleList] 'the [c]' [FamilyList]</li>
+				<li>name(p=0.01)->[MaleList] 'chosen of [ImperialGods]' [FamilyList]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>MaleList</keyword>
+					<path>ESCP_ImperialNames/ImperialMale</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>FamilyList</keyword>
+					<path>ESCP_ImperialNames/ImperialFamily</path>
+				</li>
+			</rulesRaw>
+			<rulesFiles>
+				<li>ColovianCities->ESCP_ImperialNames/ColovianCities</li>
+				<li>NibeneseCities->ESCP_ImperialNames/NibeneseCities</li>
+				<li>a->ESCP_ImperialNames/ImperialFactionA</li>
+				<li>b->ESCP_ImperialNames/ImperialFactionB</li>
+				<li>c->ESCP_ImperialNames/ImperialFactionC</li>
+				<li>ImperialGods->ESCP_ImperialNames/ImperialGods</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>ESCP_NamerPersonImperialFemale</defName>
+		<include>
+		  <li>TribalWordUtility</li>
+		</include>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[FemaleList] [FamilyList]</li>
+				<li>name(p=0.05)->[FemaleList] of [ColovianCities]' [FamilyList]</li>
+				<li>name(p=0.05)->[FemaleList] of [NibeneseCities]' [FamilyList]</li>
+				<li>name(p=0.05)->[FemaleList] [FamilyList]</li>
+				<li>name(p=0.05)->[FemaleList] 'the [c]' [FamilyList]</li>
+				<li>name(p=0.01)->[FemaleList] 'chosen of [ImperialGods]' [FamilyList]</li>
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>FemaleList</keyword>
+					<path>ESCP_ImperialNames/ImperialFemale</path>
+				</li>
+				<li Class="Rule_File">
+					<keyword>FamilyList</keyword>
+					<path>ESCP_ImperialNames/ImperialFamily</path>
+				</li>
+			</rulesRaw>
+			<rulesFiles>
+				<li>ColovianCities->ESCP_ImperialNames/ColovianCities</li>
+				<li>NibeneseCities->ESCP_ImperialNames/NibeneseCities</li>
+				<li>a->ESCP_ImperialNames/ImperialFactionA</li>
+				<li>b->ESCP_ImperialNames/ImperialFactionB</li>
+				<li>c->ESCP_ImperialNames/ImperialFactionC</li>
+				<li>ImperialGods->ESCP_ImperialNames/ImperialGods</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+</Defs>

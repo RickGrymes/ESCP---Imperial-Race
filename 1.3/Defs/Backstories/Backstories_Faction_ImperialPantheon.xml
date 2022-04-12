@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Imperial Pantheon __________-->
+
+	<!-- Monk -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialPantheonMonkBackstory</defName>
+		<title>Imperial pantheon monk</title>
+		<titleShort>Monk</titleShort>
+		<baseDescription>[PAWN_nameDef] has always been there to tend to the weak or unhealthy. In order to best make use of these skills [PAWN_nameDef] decided that [PAWN_pronoun] would put [PAWN_possessive] skills to work for the best use they could, being a healer in the Imperial Pantheon following. For the good of the Empire and [PAWN_nameDef]s people.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Priest -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialPantheonPriestBackstory</defName>
+		<title>Imperial pantheon priest</title>
+		<titleShort>Priest</titleShort>
+		<baseDescription>[PAWN_nameDef] has decided to live  life where the gods are most revered. [PAWN_nameDef] will live as a priest to the Imperial pantheon to honor the gods and heros of old.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>0</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Priestess -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialPantheonPriestessBackstory</defName>
+		<title>Imperial pantheon priestess</title>
+		<titleShort>Priestess</titleShort>
+		<baseDescription>[PAWN_nameDef] has decided to live  life where the gods are most revered. [PAWN_nameDef] will live as a priest to the Imperial pantheon to honor the gods and heros of old.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<maleCommonality>0</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

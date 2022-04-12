@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>ESCP_ImperialPlayerColony</defName>
+		<label>Imperial arrivals</label>
+		<description>A colony of survivors from the New Cyrodiil colonisation ship.</description>
+		<isPlayer>true</isPlayer>
+		<basicMemberKind>ESCP_Imperial_Citizen</basicMemberKind>
+		<pawnSingular>Imperial Citizen</pawnSingular>
+		<pawnsPlural>Imperial Citizens</pawnsPlural>
+		<techLevel>Medieval</techLevel>
+		<backstoryFilters>
+		  <li>
+			<categories>
+			  <li>ESCP_ImperialBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFilters>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlementIndustrial</factionIconPath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<allowedCultures>
+			<li>ESCP_Imperial</li>
+		</allowedCultures>
+		<geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+		  <li>ClassicStart</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+		  <li>ClassicStart</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+		  <thingDefs>
+			<li>Cloth</li>
+		  </thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+	
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>ESCP_ImperialPlayerTribe</defName>
+		<label>New Imperial Tribe</label>
+		<description>A small Imperial tribe.</description>
+		<isPlayer>true</isPlayer>
+		<pawnSingular>Imperial Citizen</pawnSingular>
+		<pawnsPlural>Imperial Citizens</pawnsPlural>
+		<basicMemberKind>ESCP_Imperial_Citizen</basicMemberKind>
+		<techLevel>Neolithic</techLevel>
+		<backstoryFilters>
+		  <li>
+			<categories>
+			  <li>ESCP_ImperialBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFilters>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlement</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionTribal</factionNameMaker>
+		<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+		<allowedCultures>
+			<li>ESCP_Imperial</li>
+		</allowedCultures>
+		<geneticVariance>1</geneticVariance>
+		<forageabilityFactor>1.7</forageabilityFactor>
+		<startingResearchTags>
+		  <li>TribalStart</li>
+		  <li>ESCP_ImperialStart_Tribal</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+		  <li>TribalStart</li>
+		  <li>TribalStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+		  <thingDefs>
+			<li>Cloth</li>
+		  </thingDefs>
+		</apparelStuffFilter>
+		<recipePrerequisiteTags>
+		  <li>Tribal</li>
+		</recipePrerequisiteTags>
+	</FactionDef>
+	
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>ESCP_ImperialPlayerKingdom</defName>
+		<label>New Imperial Kingdom</label>
+		<description>A small Imperial kingdom.</description>
+		<isPlayer>true</isPlayer>
+		<pawnSingular>Impeiral Citizen</pawnSingular>
+		<pawnsPlural>Imperial Citizens</pawnsPlural>
+		<basicMemberKind>ESCP_Imperial_Citizen</basicMemberKind>
+		<techLevel>Medieval</techLevel>
+		<backstoryFilters>
+		  <li>
+			<categories>
+			  <li>ESCP_ImperialBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFilters>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlement</factionIconPath>
+		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionTribal</factionNameMaker>
+		<settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+		<allowedCultures>
+			<li>ESCP_Imperial</li>
+		</allowedCultures>
+		<geneticVariance>1</geneticVariance>
+		<startingResearchTags>
+		  <li>TribalStart</li>
+		  <li>ESCP_ImperialStart_Medieval</li>
+		</startingResearchTags>
+		<startingTechprintsResearchTags>
+		  <li>TribalStart</li>
+		  <li>TribalStartTechprints</li>
+		</startingTechprintsResearchTags>
+		<apparelStuffFilter>
+		  <thingDefs>
+			<li>Cloth</li>
+		  </thingDefs>
+		</apparelStuffFilter>
+		<recipePrerequisiteTags>
+		  <li>Tribal</li>
+		</recipePrerequisiteTags>
+	</FactionDef>
+
+</Defs>

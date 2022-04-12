@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Imperial Navy __________-->
+
+	<!-- Deckhand -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyDeckhandBackstory</defName>
+		<title>Imperial navy deckhand</title>
+		<titleShort>Imperial navy deckhand</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial navy. After a life around the water it made sense when it came to military duty to choose the navy. [PAWN_nameDef] is enlisted as a deckhand and obeys orders to the best of thier ability.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyDeckhandBackstoryAlt</defName>
+		<title>Imperial navy deckhand</title>
+		<titleShort>Imperial navy deckhand</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial navy. After a life around the water it made sense when it came to military duty to choose the navy. [PAWN_nameDef] is enlisted as a deckhand and obeys orders to the best of thier ability.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Mariner -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyMarinerBackstory</defName>
+		<title>Imperial navy mariner</title>
+		<titleShort>Imperial navy mariner</titleShort>
+		<baseDescription>[PAWN_nameDef] has been in the navy long enough to know the ins and outs of navy life and is used to the constant patroling of Imperial trade routes.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyMarinerBackstoryAlt</defName>
+		<title>Imperial navy mariner</title>
+		<titleShort>Imperial navy mariner</titleShort>
+		<baseDescription>[PAWN_nameDef] has been in the navy long enough to know the ins and outs of navy life and is used to the constant patroling of Imperial trade routes.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Boatswain -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyBoatswainBackstory</defName>
+		<title>Imperial navy boatswain</title>
+		<titleShort>Imperial navy boatswain</titleShort>
+		<baseDescription>[PAWN_nameDef] has enlisted in the Imperial navy and has made an honorable career in the service of the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyBoatswainBackstoryAlt</defName>
+		<title>Imperial navy boatswain</title>
+		<titleShort>Imperial navy boatswain</titleShort>
+		<baseDescription>[PAWN_nameDef] has enlisted in the Imperial navy and has made an honorable career in the service of the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Captain -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyCaptainBackstory</defName>
+		<title>Imperial navy captain</title>
+		<titleShort>Imperial navy captain</titleShort>
+		<baseDescription>[PAWN_nameDef] has spentmany years within the navy rising through the ranks. [PAWN_pronoun] has been around many a naval battle and survived pirate raids. [PAWN_nameDef] has commanded ships under the supervision and scrutiny of other captains and even admirals.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyOfficerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyCaptainBackstoryAlt</defName>
+		<title>Imperial navy captain</title>
+		<titleShort>Imperial navy captain</titleShort>
+		<baseDescription>[PAWN_nameDef] has spentmany years within the navy rising through the ranks. [PAWN_pronoun] has been around many a naval battle and survived pirate raids. [PAWN_nameDef] has commanded ships under the supervision and scrutiny of other captains and even admirals.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyOfficerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Admiral -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyAdmiralBackstory</defName>
+		<title>Imperial navy admiral</title>
+		<titleShort>Imperial navy admiral</titleShort>
+		<baseDescription>[PAWN_nameDef] has spent almost their whole life within the navy. [PAWN_pronoun] has been a part of major conflicts and operations and was hand chosed by the Emperor or high council themselves for their immense streangth in naval military strategy and natural intellect.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyOfficerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialNavyAdmiralBackstoryAlt</defName>
+		<title>Imperial navy admiral</title>
+		<titleShort>Imperial navy admiral</titleShort>
+		<baseDescription>[PAWN_nameDef] has spent almost their whole life within the navy. [PAWN_pronoun] has been a part of major conflicts and operations and was hand chosed by the Emperor or high council themselves for their immense streangth in naval military strategy and natural intellect.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_ImperialNavyOfficerBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

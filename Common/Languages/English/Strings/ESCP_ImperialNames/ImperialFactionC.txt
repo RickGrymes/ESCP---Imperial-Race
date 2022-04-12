@@ -1,0 +1,12 @@
+Beacon
+Belfry
+Bulwark
+Castle
+Cathedral
+Citadel
+Fortress
+Pillar
+Spire
+Temple
+Tower
+Watch

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AbilityGroupDef>
+		<defName>ESCP_ImperialRole</defName>
+		<cooldownTicks>600000</cooldownTicks>
+	</AbilityGroupDef>
+	
+	<!-- combat stances -->
+	
+	<AbilityDef>
+		<defName>ESCP_ImperialMeleeStance</defName>
+		<label>melee stance</label>
+		<description>Command nearby allies, directing them to take on a stance that boosts their melee capabilities. The effect lasts 24 hours and remains attached to the leader for the duration.</description>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+		<iconPath>UI/Abilities/ESCP_ImperialAbilityMeleeStance</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_ImperialAbilityMeleeStance</warmupMoteSocialSymbol>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<groupDef>ESCP_ImperialRole</groupDef>
+		<hotKey>Misc12</hotKey>
+		<uiOrder>3</uiOrder>
+		<warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+		<statBases>
+		  <Ability_Duration>1000</Ability_Duration>
+		  <Ability_EffectRadius>9.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+		  <verbClass>Verb_CastAbility</verbClass>
+		  <warmupTime>0.5</warmupTime>
+		  <range>9.9</range>
+		  <drawAimPie>False</drawAimPie>
+		  <requireLineOfSight>False</requireLineOfSight>
+		  <targetParams>
+			<canTargetSelf>true</canTargetSelf>
+			<canTargetPawns>false</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetAnimals>false</canTargetAnimals>
+			<canTargetHumans>false</canTargetHumans>
+			<canTargetMechs>false</canTargetMechs>
+		  </targetParams>
+		</verbProperties>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<hediffDef>ESCP_ImperialMeleeStance</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<onlyApplyToSelf>True</onlyApplyToSelf>
+			<replaceExisting>true</replaceExisting>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>ESCP_ImperialRangedStance</defName>
+		<label>ranged stance</label>
+		<description>Command nearby allies, directing them to take on a stance that boosts their ranged capabilities. The effect lasts 24 hours and remains attached to the leader for the duration.</description>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+		<iconPath>UI/Abilities/ESCP_ImperialAbilityRangedStance</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_ImperialAbilityRangedStance</warmupMoteSocialSymbol>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<groupDef>ESCP_ImperialRole</groupDef>
+		<hotKey>Misc12</hotKey>
+		<uiOrder>3</uiOrder>
+		<warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+		<statBases>
+		  <Ability_Duration>1000</Ability_Duration>
+		  <Ability_EffectRadius>9.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+		  <verbClass>Verb_CastAbility</verbClass>
+		  <warmupTime>0.5</warmupTime>
+		  <range>9.9</range>
+		  <drawAimPie>False</drawAimPie>
+		  <requireLineOfSight>False</requireLineOfSight>
+		  <targetParams>
+			<canTargetSelf>true</canTargetSelf>
+			<canTargetPawns>false</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetAnimals>false</canTargetAnimals>
+			<canTargetHumans>false</canTargetHumans>
+			<canTargetMechs>false</canTargetMechs>
+		  </targetParams>
+		</verbProperties>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<hediffDef>ESCP_ImperialRangedStance</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<onlyApplyToSelf>True</onlyApplyToSelf>
+			<replaceExisting>true</replaceExisting>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>ESCP_ImperialDefensiveStance</defName>
+		<label>defensive stance</label>
+		<description>Command nearby allies, directing them to take on a stance that boosts their defensive capabilities. The effect lasts 24 hours and remains attached to the leader for the duration.</description>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+		<iconPath>UI/Abilities/ESCP_ImperialAbilityDefensiveStance</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_ImperialAbilityDefensiveStance</warmupMoteSocialSymbol>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<groupDef>ESCP_ImperialRole</groupDef>
+		<hotKey>Misc12</hotKey>
+		<uiOrder>3</uiOrder>
+		<warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+		<statBases>
+		  <Ability_Duration>1000</Ability_Duration>
+		  <Ability_EffectRadius>9.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+		  <verbClass>Verb_CastAbility</verbClass>
+		  <warmupTime>0.5</warmupTime>
+		  <range>9.9</range>
+		  <drawAimPie>False</drawAimPie>
+		  <requireLineOfSight>False</requireLineOfSight>
+		  <targetParams>
+			<canTargetSelf>true</canTargetSelf>
+			<canTargetPawns>false</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetAnimals>false</canTargetAnimals>
+			<canTargetHumans>false</canTargetHumans>
+			<canTargetMechs>false</canTargetMechs>
+		  </targetParams>
+		</verbProperties>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>CompAbilityEffect_GiveHediff</compClass>
+			<hediffDef>ESCP_ImperialDefensiveStance</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<onlyApplyToSelf>True</onlyApplyToSelf>
+			<replaceExisting>true</replaceExisting>
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<!-- other -->
+	
+	<AbilityDef>
+		<defName>ESCP_ImperialStarOfTheWest</defName>
+		<label>star of the west</label>
+		<description>Call upon the power of the Empire, unleashing a shockwave of energy. Any nearby hostile pawns will be temporarily stunned and fatigued, increasing fatigue gain, for 24 hours.</description>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<canUseAoeToGetTargets>true</canUseAoeToGetTargets>
+		<iconPath>UI/Abilities/ESCP_ImperialAbilityStarOfTheWest</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_ImperialAbilityStarOfTheWest</warmupMoteSocialSymbol>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<groupDef>ESCP_ImperialRole</groupDef>
+		<hotKey>Misc12</hotKey>
+		<uiOrder>3</uiOrder>
+		<warmupStartSound>CombatCommand_Warmup</warmupStartSound>
+		<statBases>
+		  <Ability_Duration>1000</Ability_Duration>
+		  <Ability_EffectRadius>9.9</Ability_EffectRadius>
+		</statBases>
+		<verbProperties>
+		  <verbClass>Verb_CastAbility</verbClass>
+		  <warmupTime>0.5</warmupTime>
+		  <range>9.9</range>
+		  <drawAimPie>False</drawAimPie>
+		  <requireLineOfSight>False</requireLineOfSight>
+		  <targetParams>
+			<canTargetSelf>true</canTargetSelf>
+			<canTargetPawns>true</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetAnimals>true</canTargetAnimals>
+			<canTargetHumans>true</canTargetHumans>
+			<canTargetMechs>false</canTargetMechs>
+		  </targetParams>
+		</verbProperties>
+		<comps>
+		  <li Class="CompProperties_AbilityGiveHediff">
+			<compClass>ESCP_RaceTools.CompAbilityEffect_GiveHediffAndStun</compClass>
+			<hediffDef>ESCP_ImperialPawnFatigued</hediffDef>
+			<onlyBrain>True</onlyBrain>
+			<applyToSelf>false</applyToSelf>
+			<onlyApplyToSelf>false</onlyApplyToSelf>
+			<replaceExisting>false</replaceExisting>
+		  </li>
+		  <li Class="ESCP_RaceTools.CompProperties_AbilityEffectCameraShakerOneOff">
+		  </li>
+		</comps>
+	</AbilityDef>
+	
+	<AbilityDef>
+		<defName>ESCP_ImperialCharmTarget</defName>
+		<label>charm</label>
+		<description>Charm a target, boosting their opinion of the caster by 30 points, for 20 days.</description>
+		<groupDef>ESCP_ImperialRole</groupDef>
+		<iconPath>UI/Abilities/ESCP_ImperialAbilityCharmTarget</iconPath>
+		<warmupMoteSocialSymbol>UI/Abilities/ESCP_ImperialAbilityCharmTarget</warmupMoteSocialSymbol>
+		<hotKey>Misc12</hotKey>
+		<jobDef>CastAbilityOnThingMelee</jobDef>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<warmupSound>AnimalCalm_Resolve</warmupSound>
+		<uiOrder>1</uiOrder>
+		<comps>
+		  <li Class="ESCP_RaceTools.CompProperties_CharmTarget">
+		  </li>
+		</comps>
+		<statBases>
+		</statBases>
+		<verbProperties>
+		  <verbClass>Verb_CastAbilityTouch</verbClass>
+		  <drawAimPie>False</drawAimPie>
+		  <range>-1</range>
+		  <warmupTime>3.0</warmupTime>
+		  <targetParams>
+			<canTargetSelf>false</canTargetSelf>
+			<canTargetPawns>true</canTargetPawns>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetAnimals>false</canTargetAnimals>
+			<canTargetHumans>true</canTargetHumans>
+			<canTargetMechs>false</canTargetMechs>
+			<mustBeSelectable>true</mustBeSelectable>
+			<neverTargetHostileFaction>false</neverTargetHostileFaction>
+		  </targetParams>
+		</verbProperties>
+	</AbilityDef>
+
+</Defs>

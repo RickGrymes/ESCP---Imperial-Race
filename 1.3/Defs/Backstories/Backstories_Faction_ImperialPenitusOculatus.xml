@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Penitus Oculatus __________-->
+
+	<!-- Penitus Oculatus Agent -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_PenitusOculatisAgentBackstory</defName>
+		<title>Penitus oculatus agent</title>
+		<titleShort>Penitus oculatus agent</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the penitus oculatus, the defenders of the Mede dynasty. The penitus oculatus replaced the Blades as the main agents of espionage and bodyguard duties during the later mede dynasty and third era. [PAWN_nameDef has been assigned to politcal, internal and external espionage, this includes assasnations, sabatage, investigation and infiltration of those who would dare to go against the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_PenitusOculatisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_PenitusOculatisAgentBackstoryAlt</defName>
+		<title>Penitus oculatus agent</title>
+		<titleShort>Penitus oculatus agent</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the penitus oculatus, the defenders of the Mede dynasty. The penitus oculatus replaced the Blades as the main agents of espionage and bodyguard duties during the later mede dynasty and third era. [PAWN_nameDef has been assigned to politcal, internal and external espionage, this includes assasnations, sabatage, investigation and infiltration of those who would dare to go against the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_PenitusOculatisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Bodyguard -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_PenitusOculatisBodyguardBackstory</defName>
+		<title>Penitus oculatus bodyguard</title>
+		<titleShort>Penitus oculatus bodyguard</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the penitus oculatus, the defenders of the Mede dynasty. The penitus oculatus replaced the Blades as the main agents of espionage and bodyguard duties during the later mede dynasty and third era. [PAWN_nameDef] is of fit body and mind, being assigned to guard the Empires most valuable individials and politicians.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_PenitusOculatisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_PenitusOculatisBodyguardBackstoryAlt</defName>
+		<title>Penitus oculatus bodyguard</title>
+		<titleShort>Penitus oculatus bodyguard</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the penitus oculatus, the defenders of the Mede dynasty. The penitus oculatus replaced the Blades as the main agents of espionage and bodyguard duties during the later mede dynasty and third era. [PAWN_nameDef] is of fit body and mind, being assigned to guard the Empires most valuable individials and politicians.</baseDescription>
+		<slot>Adulthood</slot>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_PenitusOculatisBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

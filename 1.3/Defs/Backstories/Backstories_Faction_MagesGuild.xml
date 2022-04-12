@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Mages Guild __________-->
+
+	<!-- Alchemist -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_MagesGuildAlchemistBackstory</defName>
+		<title>Mages Guild alchemist</title>
+		<titleShort>guild alchemist</titleShort>
+		<baseDescription>[PAWN_nameDef] was tasked with the study of the flora found around Cyrodiil, where to best to find them, and how to make use of them. From dragons tongue, to deathbells, [PAWN_nameDef] had spent countless hours studying it, yet promotion still seemed to be a distant dream.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>60</maleCommonality>
+		<femaleCommonality>60</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Librarian -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_MagesGuildLibrarianBackstory</defName>
+		<title>Mages Guild librarian</title>
+		<titleShort>guild librarian</titleShort>
+		<baseDescription>Keeping up with so many tomes can be a hassle, but [PAWN_nameDef] has their best foot forward. Keeping many rare and common tomes of magic and spellcasting available for use by the guild.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>5</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>2</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>55</maleCommonality>
+		<femaleCommonality>55</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<!-- Healer -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_MagesGuildHealerBackstory</defName>
+		<title>Mages Guild healer</title>
+		<titleShort>guild healer</titleShort>
+		<baseDescription>Fully devoted to the arts of Restoration, [PAWN_nameDef] was one of many healers to be found among the Mages Guild. While [PAWN_pronoun] could have made use of [PAWN_possessive] skills working for the Tribunal Temple, [PAWN_nameDef] found the expected pay there rather lacking.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Enchanter -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_MagesGuildEnchanterBackstory</defName>
+		<title>Mages Guild enchanter</title>
+		<titleShort>guild enchanter</titleShort>
+		<baseDescription>[PAWN_nameDef] was one of the enchanters found at [PAWN_possessive] local Mages Guild hall. Become a grand enchanter has always been the goal of[PAWN_NameDef], and this was the first step.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>45</maleCommonality>
+		<femaleCommonality>45</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<!-- Veteran Battlemage -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_MagesGuildVeteranBattlemageBackstory</defName>
+		<title>Mages Guild enchanter</title>
+		<titleShort>guild enchanter</titleShort>
+		<baseDescription>[PAWN_nameDef] was once battlemage for the Imperial legion. After leaving the service of the Empire [PAWN_NameDef] decided to use thier ability to make some septims and teach when they could.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialMagesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Greedy</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>40</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>

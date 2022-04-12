@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Achievements Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs</xpath>
+					<value>
+
+						<AchievementsExpanded.AchievementTabDef>
+							<defName>ESCP_AchievementsTab</defName>
+							<label>ESCP</label>
+						</AchievementsExpanded.AchievementTabDef>
+						
+						<AchievementsExpanded.Reward_MapIncident>
+							<defName>ESCP_RewardImperialJoins</defName>
+							<label>Tribal Imperial Joins</label>
+							<tab>ESCP_AchievementsTab</tab>
+							
+							<cost>150</cost>
+							<incident>ESCP_ImperialJoins</incident>
+						</AchievementsExpanded.Reward_MapIncident>
+						
+						<!-- -->
+
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_ImperialSlayer</defName>
+							<label>Death to the Empire</label>
+							<description>Slay 50 Imperials</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundImperial</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<raceDef>ESCP_ImperialRace</raceDef>
+								<count>50</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_ImperialSlayer</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_ImperialColonyDestroyer</defName>
+							<label>Taking Down the Defenceless</label>
+							<description>Destroy 3 settlements belonging to the Imperial Colonies faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundImperial</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.SettlementDefeatTracker">
+								<def>ESCP_ImperialColony</def>
+								<count>3</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_ImperialColonyDestroyer</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_ImperialLegionDestroyer</defName>
+							<label>Depleting Their Ranks</label>
+							<description>Slay 150 soldiers belonging to the Imperial Legion faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundImperial</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<factionDefs>
+									<li>ESCP_ImperialLegion</li>
+								</factionDefs>
+								<count>150</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_ImperialLegionDestroyer</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_ImperialDragonSlayer</defName>
+							<label>Imperial Dragon Slayer</label>
+							<description>Slay an Imperial Dragon belonging to any Imperial faction</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundImperial</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<kindDef>ESCP_ImperialTribal_ChiefMelee</kindDef>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/ESCP_ImperialDragonSlayer</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementImperialColonists</defName>
+							<label>A New Empire is Born</label>
+							<description>Have 12 Imperials in your colony at the same time</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundImperial</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<raceDefs>
+									<li>
+										<key>ESCP_ImperialRace</key>
+										<value>12</value>
+									</li>
+								</raceDefs>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementImperialColonists</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementImperialNamedSeptim</defName>
+							<label>One of a Dynasty</label>
+							<description>Recruit a member of the Septim Dynasty</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundImperial</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.PawnNamedTracker">
+								<key>ESCP_ImperialRace</key>
+								<lastName>Septim</lastName>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementImperialNamedSeptim</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						<!--
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementImperialBloodmoonRivals</defName>
+							<label>Raven Rock Rivals</label>
+							<description>Have an Imperial called Falco and an Imperial called Carnius in your colony</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundImperial</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.PawnNamedTracker_WithList">
+								<namesList>
+									<li>
+										<key>ESCP_ImperialRace</key>
+										<firstName>Carnius</firstName>
+									</li>
+									<li>
+										<key>ESCP_ImperialRace</key>
+										<firstName>Falco</firstName>
+									</li>
+								</namesList>
+								
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementImperialBloodmoonRivals</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						-->
+						<AchievementsExpanded.AchievementDef>
+							<defName>ESCP_AchievementImperialNamedRichardious</defName>
+							<label>Long Live the Empire!</label>
+							<description>Recruit an Imperial with a very specific first name</description>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundImperial</bgtexPath>
+							<tab>ESCP_AchievementsTab</tab>
+							<tracker Class="Mashed_VanillaAchievementsExpanded.PawnNamedTracker">
+								<key>ESCP_ImperialRace</key>
+								<firstName>Richardious</firstName>
+							</tracker>
+
+							<texPath>Achievements/ESCP_AchievementImperialNamedRichardious</texPath>
+							<points>75</points>
+						</AchievementsExpanded.AchievementDef>
+						
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

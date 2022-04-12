@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- special melee role -->
+
+	<PreceptDef ParentName="PreceptRoleMultiBase">
+		<defName>ESCP_ImperialIdeoRole_Commander</defName>
+		<label>Imperial commander</label>
+		<description>A special, Imperial specific, ideoligious status focusing on commanding others to the exclusion of, almost, all else. This specialized role gives increased negotiation ability and improves trade prices and ability to the boost combat abilites for nearby allies, debuff enemies, and even charm other pawns. Holders of this role will refuse to do many kinds of non-combat-related work.</description>
+		<iconPath>UI/Roles/ESCP_ImperialSpecialistCommander</iconPath>
+		<nameMaker>ESCP_ImperialNamerRoleCommander</nameMaker>
+		<roleRequirements>
+		  <li Class="RoleRequirement_MinSkillAny">
+			<skills>
+			  <Social>8</Social>
+			</skills>
+		  </li>
+		  <li Class="ESCP_RaceTools.RoleRequirement_Race">
+			<race>ESCP_ImperialRace</race>
+		  </li>
+		</roleRequirements>
+		<roleRequiredWorkTagAny>
+		  <li>Social</li>
+		  <li>Violent</li>
+		</roleRequiredWorkTagAny>
+		<roleTags><li>ESCP_ImperialIdeoRole_Commander</li></roleTags>
+		<requiredMemes>
+		</requiredMemes>
+		<roleEffects>
+		  <li Class="RoleEffect_PawnStatOffset">
+			<statDef>NegotiationAbility</statDef>
+			<modifier>0.3</modifier>
+		  </li>
+		  <li Class="RoleEffect_PawnStatOffset">
+			<statDef>TradePriceImprovement</statDef>
+			<modifier>0.3</modifier>
+		  </li>
+		</roleEffects>
+		<displayOrderInImpact>2</displayOrderInImpact>
+		<grantedAbilities>
+		  <li>ESCP_ImperialMeleeStance</li>
+		  <li>ESCP_ImperialRangedStance</li>
+		  <li>ESCP_ImperialDefensiveStance</li>
+		  <li>ESCP_ImperialStarOfTheWest</li>
+		  <li>ESCP_ImperialCharmTarget</li>
+		</grantedAbilities>
+		<roleDisabledWorkTags>
+		  <li>Crafting</li>
+		  <li>Cooking</li>
+		  <li>PlantWork</li>
+		  <li>Mining</li>
+		  <li>Constructing</li>
+		</roleDisabledWorkTags>
+		<roleApparelRequirements>
+		</roleApparelRequirements>
+		<activationBelieverCount>3</activationBelieverCount>
+		<deactivationBelieverCount>1</deactivationBelieverCount>
+	  </PreceptDef>
+
+</Defs>

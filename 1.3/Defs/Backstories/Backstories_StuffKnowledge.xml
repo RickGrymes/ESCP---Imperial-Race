@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Special backstories used for the StuffKnowledge defModExtension + Harmony Patch-->
+	
+	<!-- Glass -->
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_StuffKnowledge_GlassBackstory</defName>
+		<title>master glass smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDescription>[PAWN_nameDef] has mastered the art of working glass over many years of being taught as a student from Dunmer smiths.\n\n While not as great a craftsman as their Dunmer counter part [PAWN_nameDef] can still make amazing works of glass.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>7</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<maleCommonality>4</maleCommonality>
+		<femaleCommonality>4</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Meteoric Iron -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_StuffKnowledge_MeteoricIronBackstory</defName>
+		<title>master meteoric iron smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDescription>[PAWN_nameDef] spent many years following trails in the night sky and looking for meteors that crashed into the earth. Using their knowledge, [PAWN_pronoun] has acomplished the ultimate goal, becoming a master smith with the rare meteoric Iron.\n\n [PAWN_nameDef] crafts out of meteoric iron will be one quality level higher than normal.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Ebony -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_StuffKnowledge_EbonyBackstory</defName>
+		<title>master ebony smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDescription>Having been trained by the best Imperial smiths, [PAWN_nameDef] has developed [PAWN_possessive] knack for working ebony into the finest equipment and art.\n\nAnything [PAWN_nameDef] crafts out of ebony will be one quality level higher than normal.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>7</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<maleCommonality>4</maleCommonality>
+		<femaleCommonality>4</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Iron -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_StuffKnowledge_IronBackstory</defName>
+		<title>master iron smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDescription>Having spent much time in Skyrim and being taught by the best Nord smiths [PAWN_nameDef] has developed [PAWN_possessive] knack for working iron into the finest equipment and art.\n\nAnything [PAWN_nameDef] crafts out of iron will be one quality level higher than normal.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<maleCommonality>4</maleCommonality>
+		<femaleCommonality>4</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<!-- Steel -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_StuffKnowledge_SteelBackstory</defName>
+		<title>master steel smith</title>
+		<titleShort>master smith</titleShort>
+		<baseDescription>[PAWN_nameDef] has been an aprentice under a master orsimer smith. Using their knowledge, [PAWN_pronoun] has become a master smith with steel.\n\n [PAWN_nameDef] crafts out of steel will be one quality level higher than normal.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>7</amount>
+			</li>
+			<li>
+				<defName>Artistic</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>PlantWork</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>50</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<maleCommonality>4</maleCommonality>
+		<femaleCommonality>4</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>

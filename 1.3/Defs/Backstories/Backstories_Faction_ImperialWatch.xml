@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Watch Scout -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialWatchScoutBackstory</defName>
+		<title>Imperial watch scout</title>
+		<titleShort>Imperial watch scout</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. After finishing basic training [PAWN_nameDef] was assigned to be an Imperial watch scout in Cyrodiil, policing the villages and keeping watch over the different counties.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCPImperialImperialWatchScoutBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>55</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>45</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialWatchScoutBackstoryAlt</defName>
+		<title>Imperial watch scout</title>
+		<titleShort>Imperial watch scout</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. After finishing basic training [PAWN_nameDef] was assigned to be an Imperial watch scout in Cyrodiil, policing the villages and keeping watch over the differnt counties.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCPImperialImperialWatchScoutBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>55</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>45</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Watchman -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialWatchSoldierBackstory</defName>
+		<title>Imperial watch soldier</title>
+		<titleShort>Imperial watch soldier</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a soldier of the watch, the guards of Cyrodiil.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCPImperialImperialLegionWatchBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>85</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialWatchSoldierBackstoryAlt</defName>
+		<title>Imperial watch soldier</title>
+		<titleShort>Imperial watch soldier</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a soldier of the watch, the guards of Cyrodiil.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCPImperialImperialLegionWatchBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>85</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Watch Palace Guard -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialWatchPalaceGuardBackstory</defName>
+		<title>Imperial watch palace guard</title>
+		<titleShort>Imperial watch palace guard</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as palace guard in the Imperial watch. Due to [PAWN_possesse]'s immense streangth they have been assigned to guard and protect the most valuable personel and locations in Cyrodiil.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCPImperialImperialPalaceGuardBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialWatchPalaceGuardBackstoryAlt</defName>
+		<title>Imperial watch palace guard</title>
+		<titleShort>Imperial watch palace guard</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the Legion. Due to [PAWN_possesse]'s immense streangth they have been assigned as a heavy legionary, equipped with heavy armor and an even heavier sense of glory for the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCPImperialImperialPalaceGuardBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Watch Captain -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialWatchCaptainBackstory</defName>
+		<title>Imperial watch captain</title>
+		<titleShort>Imperial watch captain</titleShort>
+		<baseDescription>[PAWN_nameDef] has spent many years within the legion rising through the ranks. [PAWN_pronoun] has been serving in the native guard of Cyrodiil the Imperial watch for a long time. With this experience they have become a captain within the guard.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCPImperialImperialWatchCaptainBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>90</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialWatchCaptainBackstoryAlt</defName>
+		<title>Imperial watch captain</title>
+		<titleShort>Imperial watch captain</titleShort>
+		<baseDescription>[PAWN_nameDef] has spent many years within the legion rising through the ranks. [PAWN_pronoun] has been serving in the native guard of Cyrodiil the Imperial watch for a long time. With this experience they have become a captain within the guard.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCPImperialImperialWatchCaptainBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>90</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>30</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

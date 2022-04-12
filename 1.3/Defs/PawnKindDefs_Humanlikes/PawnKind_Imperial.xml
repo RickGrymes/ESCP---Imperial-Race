@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Pawnkinds __________-->
+
+	<!-- Imperial Citizen -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Citizen</defName>
+		<label>Imperial Citizen</label>
+		<race>ESCP_ImperialRace</race>
+		<trader>true</trader>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+		  		<li>ESCP_ImperialBackstory</li>
+				<li>ESCP_ImperialChildBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>	
+		<combatPower>45</combatPower>
+		<baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelTags>
+		<li>MedievalBasic</li>
+		</apparelTags>
+		<apparelMoney>350~600</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!--__________ Imperial Legionaries __________-->
+
+	<!--_____ Imperial Watch of Cyrodiil _____-->
+
+	<!-- Imperial Watch -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Watch</defName>
+		<label>Imperial Watch</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCPImperialImperialLegionWatchBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>		
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Apparel_Imperial_Watch_Armor</li>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Apparel_Imperial_Watch_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1000</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~18</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial Watch Horseman -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Watch_Horseman</defName>
+		<label>Imperial Watch Horseman</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCPImperialImperialWatchScoutBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>		
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Apparel_Imperial_Watch_Armor</li>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Apparel_Imperial_Watch_Horseman_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1000</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~18</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial Palace Guard -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Watch_Palace_Guard</defName>
+		<label>Imperial Watch Palace Guard</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCPImperialImperialPalaceGuardBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>			
+		<combatPower>55</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Apparel_Imperial_Watch_Palace_Guard_Armor</li>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Apparel_Imperial_Watch_Palace_Guard_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1100</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~19</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial Watch Captain -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Watch_Captain</defName>
+		<label>Imperial Watch Captain</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCPImperialImperialWatchCaptainBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>		
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Apparel_Imperial_Watch_Captain_Armor</li>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Apparel_Imperial_Watch_Captain_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1200</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>10~21</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!--_____ Imperial IV Legion _____-->
+
+	<!-- Imperial IV Legion Light Legionary -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_IV_Legion_Light_Legionary</defName>
+		<label>Imperial Legionary</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_IVImperialLegionLightBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>	
+		<combatPower>45</combatPower>
+		<baseRecruitDifficulty>0.66</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Ranged_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Light_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Light_Helmet</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~800</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial IV Legion Light Studded Legionary -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_IV_Legion_Light_Studded_Legionary</defName>
+		<label>Imperial Legionary</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_IVImperialLegionStandardBackstory</li>
+				<li>ESCP_Imperial_IVImperialLegionLightBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>	
+		<combatPower>45</combatPower>
+		<baseRecruitDifficulty>0.68</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Ranged_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Studded_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Light_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~900</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial IV Legion Legionary -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_IV_Legion_Legionary</defName>
+		<label>Imperial Legionary</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_IVImperialLegionStandardBackstory</li>
+		  		<li>ESCP_Imperial_IVImperialLegionQuartermasterBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>		
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1000</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~18</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial IV Legion Heavy Legionary -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_IV_Legion_Heavy_Legionary</defName>
+		<label>Imperial Legionary</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_IVImperialLegionHeavyBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>			
+		<combatPower>55</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Heavy_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1100</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~19</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Orsimer -->
+
+	<PawnKindDef MayRequire="SirMashedPotato.ESCP.Orsimer">
+		<defName>ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer</defName>
+		<label>Imperial Legionary</label>
+		<race>ESCP_OrsimerRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Orismer_IVImperialLegionHeavyBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>			
+		<combatPower>55</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalBasic</li>
+			<li>MedievalMilitary</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Heavy_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1100</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~19</initialResistanceRange>	
+	</PawnKindDef>
+
+
+	<!-- Imperial IV Legion Legate -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_IV_Legion_Legate</defName>
+		<label>Imperial Legion Legate</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_IVImperialLegionLegateBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>		
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Legate_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1200</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>10~21</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial IV Legion General -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_IV_Legion_General</defName>
+		<label>Imperial Legion General</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_IVImperialLegionGeneralBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>	
+		<combatPower>52</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_General_Armor</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>350~1200</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>10~22</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!--_____ Imperial Navy _____-->
+
+	<!-- Imperial Navy -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Navy_Deckhand</defName>
+		<label>Imperial Navy Deckhand</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>	
+		<combatPower>40</combatPower>
+		<baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Ranged_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Light_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Light_Helmet</li>
+		</apparelRequired>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~800</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial Navy Mariner -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Navy_Mariner</defName>
+		<label>Imperial Navy Mariner</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>	
+		<combatPower>45</combatPower>
+		<baseRecruitDifficulty>0.68</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Ranged_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Light_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Light_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~900</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial Navy Boatswain -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Navy_Boatswain</defName>
+		<label>Imperial Navy Boatswain</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>	
+		<combatPower>47</combatPower>
+		<baseRecruitDifficulty>0.68</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Ranged_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Studded_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Light_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~900</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial Navy Captain -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Navy_Captain</defName>
+		<label>Imperial Navy Captain</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_ImperialNavyOfficerBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>		
+		<combatPower>48</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Legate_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1200</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>10~21</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial Navy Admiral -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Navy_Admiral</defName>
+		<label>Imperial Navy Admiral</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_ImperialNavyOfficerBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>	
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_General_Armor</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>350~1200</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>10~22</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!--__________ Penitus Oculatis __________-->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_PenitusOculatis</defName>
+		<label>Imperial Penitus Oculatis</label>
+		<race>ESCP_ImperialRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_PenitusOculatisBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>			
+		<combatPower>55</combatPower>
+		<baseRecruitDifficulty>0.70</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Melee_Imperial</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Penitus_Oculatis_Armor</li>
+			<li MayRequire="Rick.ESCPImperialSkyRimArmory">ESCP_SkyRim_Apparel_IV_Imperial_Penitus_Oculatis_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1100</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~19</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!--__________ Blades __________-->
+
+	<!-- Blades Agent -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Blades_Agent</defName>
+		<label>Imperial Blades Agent</label>
+		<race>ESCP_AkaviriRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_BladesAgentBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>		
+		<combatPower>50</combatPower>
+		<baseRecruitDifficulty>0.79</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Melee_Imperial_Blades</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_SkyRim_ObliviRim_Imperial_Blades_Armor</li>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_SkyRim_ObliviRim_Imperial_Blades_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1000</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~18</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Blades Bodyguard -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Blades_Bodyguard</defName>
+		<label>Imperial Blades Bodyguard</label>
+		<race>ESCP_AkaviriRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_BladesBodyguardBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>		
+		<combatPower>53</combatPower>
+		<baseRecruitDifficulty>0.77</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Melee_Imperial_Blades</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_SkyRim_ObliviRim_Imperial_Blades_Armor</li>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_SkyRim_ObliviRim_Imperial_Blades_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1000</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~18</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Blades Warrior -->
+
+	<PawnKindDef>
+		<defName>ESCP_Imperial_Blades_Warrior</defName>
+		<label>Imperial Blades Warrior</label>
+		<race>ESCP_AkaviriRace</race>
+		<backstoryFiltersOverride>
+		<li>
+			<categories>
+				<li>ESCP_Imperial_BladesWarriorBackstory</li>
+			</categories>
+		</li>
+		</backstoryFiltersOverride>		
+		<combatPower>55</combatPower>
+		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_ObliviRim_Melee_Imperial_Blades</li>
+		</weaponTags>
+		<apparelRequired>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_SkyRim_ObliviRim_Imperial_Blades_Armor</li>
+			<li MayRequire="Rick.ESCPImperialObliviRimArmory">ESCP_SkyRim_ObliviRim_Imperial_Blades_Helmet</li>
+		</apparelRequired>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<apparelMoney>350~1000</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~18</initialResistanceRange>	
+	</PawnKindDef>
+
+</Defs>

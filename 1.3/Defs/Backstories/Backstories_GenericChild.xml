@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Generic -->
+
+	<AlienRace.BackstoryDef Name="ESCP_ImperialChildBackstoryBase" Abstract="True">
+		<slot>Childhood</slot>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		  <li>ESCP_ImperialFightersGuildBackstory</li>
+		  <li>ESCP_ImperialMagesGuildBackstory</li>
+		  <li>ESCP_Imperial_PenitusOculatisBackstory</li>
+		  <li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
+		  <li>ESCP_Imperial_ImperialNavyOfficerBackstory</li>
+		  <li>ESCPImperialImperialWatchScoutBackstory</li>
+		  <li>ESCPImperialImperialLegionWatchBackstory</li>
+		  <li>ESCPImperialImperialPalaceGuardBackstory</li>
+		  <li>ESCPImperialImperialWatchCaptainBackstory</li>
+		  <li>ESCP_Imperial_IVImperialLegionLightBackstory</li>
+		  <li>ESCP_Imperial_IVImperialLegionQuartermasterBackstory</li>
+		  <li>ESCP_Imperial_IVImperialLegionStandardBackstory</li>
+		  <li>ESCP_Imperial_IVImperialLegionHeavyBackstory</li>
+		  <li>ESCP_Imperial_IVImperialLegionLegateBackstory</li>
+		  <li>ESCP_Imperial_IVImperialLegionGeneralBackstory</li>
+		  <li>ESCP_Imperial_BladesAgentBackstory</li>
+		  <li>ESCP_Imperial_BladesBodyguardBackstory</li>
+		  <li>ESCP_Imperial_BladesWarriorBackstory</li>
+		</spawnCategories>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef ParentName="ESCP_ImperialChildBackstoryBase">
+		<defName>ESCP_Imperial_StreetRat</defName>
+		<title>street rat</title>
+		<titleShort>street rat</titleShort>
+		<baseDescription>[PAWN_nameDef] spent [PAWN_possessive] childhood roaming around the streets of the Imperial City slums. Life was never easy, but [PAWN_nameDef] learned quickly that there were many ways to get some septims in order to survive.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedItems>
+			<Silver>0~5</Silver>
+		</forcedItems>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef ParentName="ESCP_ImperialChildBackstoryBase">
+		<defName>ESCP_Imperial_ApprenticeMage</defName>
+		<title>mage's apprentice</title>
+		<titleShort>mage's apprentice</titleShort>
+		<baseDescription>[PAWN_nameDef] studied as a mage's apprentice in the Imperial City at the Arcane UNiversity. [PAWN_pronoun] spent [PAWN_possessive] days and nights studying old tomes, trying to find what spells would be mightier than others, but as most apprentices they spent long hours cleaning and doing their masters bidding .</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>PsychicSensitivity</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li>
+			<!-- <li>
+				<defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>15</chance>
+			</li> -->
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_HouseServant</defName>
+		<title>house servant</title>
+		<titleShort>house servant</titleShort>
+		<baseDescription>[PAWN_nameDef] was a servant for a wealthy merchant. [PAWN_pronoun] cooked, cleaned, and handled the daily affairs of the manor. [PAWN_nameDef] would look out to the Bay of Nibenay in awe of one day becoming rich as well.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_Noble</defName>
+		<title>Imperial noble</title>
+		<titleShort>Noble</titleShort>
+		<baseDescription>[PAWN_nameDef] was born into nobility. [PAWN_pronoun] has lived a life of ease and is used to getting [PAWN_possessive] way, but [PAWN_possessive] status has also brought forth more responsibility including training in the social and military arts.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Mining</li>
+			<li>ManualDumb</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+    
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_Fieldhand</defName>
+		<title>Rice fieldhand</title>
+		<titleShort>fieldhand</titleShort>
+		<baseDescription>[PAWN_nameDef] parents owned a large rice farm, as one of the children of farmers working as a fieldhand was expected. [PAWN_pronoun] is used to hard manual labor and has developed quite the love of plants in the process.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_VillageChild</defName>
+		<title>Imperial village child</title>
+		<titleShort>Village child</titleShort>
+		<baseDescription>[PAWN_nameDef] was born in one of the many villages dotted around Cyrodiil. [PAWN_pronoun] learned simple skills in and found work when it was needed be it herding animals or cleaning up the smiths tools.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_AssistantAlchemist</defName>
+		<title>Alchemist's assistant</title>
+		<titleShort>Alchemist's assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] has been working in an alchemist's shop. [PAWN_pronoun] has been taught about all sorts of plants and alchemical ingrediants found throughout Tamriel.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+            <li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef> 
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_MythicDawnChild</defName>
+		<title>Mythic dawn child</title>
+		<titleShort>Cultist child</titleShort>
+		<baseDescription>[PAWN_nameDef] parents were members of the mythic dawn cult. [PAWN_pronoun] was trained by [PAWN_possessive] parents to obey and worship Mehrunes Dagon from a young age.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialCultBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>  
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_TempleAttendant</defName>
+		<title>Divine temple attendant</title>
+		<titleShort>Divine temple attendant</titleShort>
+		<baseDescription>[PAWN_nameDef] has spent [PAWN_possessive] childhood worshiping in the Temple of the nine divines. [PAWN_pronoun] made sure all the shrines were well polished and that the pews and alters were well maintained and had suitable offerings as well. [PAWN_nameDef] learned a lot from the priests and priestess's.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialTempleBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Medicine</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>  
+
+     <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ShipsMate</defName>
+		<title>ship's mate</title>
+		<titleShort>ship's mate</titleShort>
+		<baseDescription>[PAWN_nameDef] has grown up cleaning and serving on various ships, be it a merchant or military vessel.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>         
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_FightersGuildTrainee</defName>
+		<title>fighters' guild trainee</title>
+		<titleShort>fighter's guild trainee</titleShort>
+		<baseDescription>[PAWN_nameDef] was a trainee in the Fighters' Guild. [PAWN_pronoun] was taught by the Guild how to hold [PAWN_possessive] own in personal combat, to hold [PAWN_possessive] weapon with confidence and dispatch [PAWN_possessive] enemies without prejudice.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>    
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ShopkeepsAssistant</defName>
+		<title>shopkeep's assistant</title>
+		<titleShort>shopkeep's assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up tending a shop in the market district of the Imperial City. [PAWN_pronoun] always made sure that everything was in tip top shape and in perfect order. [PAWN_nameDef] never turned down an opportunity to make some septims.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>    
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BlacksmithsApprentice</defName>
+		<title>blacksmith's apprentice</title>
+		<titleShort>blacksmith's apprentice</titleShort>
+		<baseDescription>[PAWN_nameDef] apprenticed to a blacksmith in their city. [PAWN_pronoun] was in charge of cleaning the tools and making sure the forge never ran out of material.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>    
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_StableHand</defName>
+		<title>Stable hand</title>
+		<titleShort>Stable hand</titleShort>
+		<baseDescription>[PAWN_nameDef] was raised on a stable and grew up raising horses their whole life.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_AyliedHistoryStudent</defName>
+		<title>Aylied history student</title>
+		<titleShort>Aylied history student</titleShort>
+		<baseDescription>[PAWN_nameDef] has decided to study the ancient ruins left by the Aylieds. [PAWN_possessive] has grown an uneasy fascination with the ancientrace and [PAWN_possessive] nose in the books, but [PAWN_pronoun] learned all about the first rebellion of humans and the glory in which the Empire was founded.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>            
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BanditChild</defName>
+		<title>bandit child</title>
+		<titleShort>bandit child</titleShort>
+		<baseDescription>[PAWN_nameDef] was born into  life of petty banditry. [PAWN_pronoun] grew up on the run from the Imperial watch or at times the occasional citizen with a pitchfork.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>            
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_YoungAdventurer</defName>
+		<title>young adventurer</title>
+		<titleShort>young adventurer</titleShort>
+		<baseDescription>[PAWN_nameDef] has always been interested in becoming a hero of legend. As soon as [PAWN_pronoun] was able to afford a blade and decent set of armor, [PAWN_pronoun] left their home in Anvil and went to make their mark on the world.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>            
+			<li>
+				<defName>Medicine</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>       
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_HealerInTraining</defName>
+		<title>healer-in-training</title>
+		<titleShort>healer-in-training</titleShort>
+		<baseDescription>[PAWN_nameDef] worked [PAWN_possessive] early life training to be a healer. [PAWN_pronoun] was taught to lay hands on the weak and mix potions at the mages guild in Anvil.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>            
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>    
+   
+</Defs>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+	<!-- Cyrodiilic Empire Unification Opinion -->
+
+	<ThoughtDef>
+		<defName>ESCP_ImperialOpinion_EmpireUnification</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+        <workerClass>ESCP_RaceTools.ThoughtWorker_UniversalTraitOpinion</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.ThoughtDefProperties">
+                <traitA>ESCP_Imperial_Nibenese</traitA>
+                <traitB>ESCP_Imperial_Colovian</traitB>
+			</li>
+		</modExtensions>
+		<stages>
+		  <li>
+			<label>Cyrodiilic Unification</label>
+			<baseOpinionOffset>5</baseOpinionOffset>
+		  </li>
+		</stages>
+		<nullifyingTraits>
+		</nullifyingTraits>
+	</ThoughtDef>
+	
+	<ThoughtDef Name="ESCP_ImperialOpinion_Base" Abstract="True">
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+        <workerClass>ESCP_RaceTools.ThoughtWorker_UniversalTraitOpinion</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="ESCP_ImperialOpinion_Base" Name="ESCP_ImperialOpinion_Base_Negative" Abstract="True">
+		<nullifyingTraits>
+		</nullifyingTraits>
+	</ThoughtDef>
+	
+	<ThoughtDef ParentName="ESCP_ImperialOpinion_Base" Name="ESCP_ImperialOpinion_Base_Positive" Abstract="True">
+		<nullifyingTraits>
+		</nullifyingTraits>
+	</ThoughtDef>
+
+	<!-- Imperials [X] -->
+	
+	<ThoughtDef ParentName="ESCP_ImperialOpinion_Base_Negative">
+		<defName>ESCP_ImperialOpinion_ColovianNibenese</defName>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.ThoughtDefProperties">
+                <traitA>ESCP_Imperial_Nibenese</traitA>
+                <traitB>ESCP_Imperial_Colovian</traitB>
+			</li>
+		</modExtensions>
+		<stages>
+		  <li>
+			<label>Colovain vs Nibenese</label>
+			<baseOpinionOffset>-10</baseOpinionOffset>
+		  </li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="ESCP_ImperialOpinion_Base_Negative">
+		<defName>ESCP_ImperialOpinion_ColovianHeartlander</defName>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.ThoughtDefProperties">
+                <traitA>ESCP_Imperial_Heartlander</traitA>
+                <traitB>ESCP_Imperial_Colovian</traitB>
+			</li>
+		</modExtensions>
+		<stages>
+		  <li>
+			<label>Colovain vs Heartlander</label>
+			<baseOpinionOffset>3</baseOpinionOffset>
+		  </li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef ParentName="ESCP_ImperialOpinion_Base_Negative">
+		<defName>ESCP_ImperialOpinion_NibeneseHeartlander</defName>
+		<modExtensions>
+			<li Class="ESCP_RaceTools.ThoughtDefProperties">
+                <traitA>ESCP_Imperial_Heartlander</traitA>
+                <traitB>ESCP_Imperial_Nibenese</traitB>
+			</li>
+		</modExtensions>
+		<stages>
+		  <li>
+			<label>Nibenese vs Heartlander</label>
+			<baseOpinionOffset>3</baseOpinionOffset>
+		  </li>
+		</stages>
+	</ThoughtDef>
+
+ </Defs>
+ 

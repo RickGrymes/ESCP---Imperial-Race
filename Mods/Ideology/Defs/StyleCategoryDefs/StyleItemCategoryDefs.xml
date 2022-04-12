@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Categories -->
+
+  <StyleItemCategoryDef>
+    <defName>ESCP_ImperialColovianStyle</defName>
+    <label>Colovian</label>
+  </StyleItemCategoryDef>
+
+  <StyleItemCategoryDef>
+    <defName>ESCP_ImperialNibeneseStyle</defName>
+    <label>Nibenese</label>
+  </StyleItemCategoryDef>
+
+
+</Defs>
+

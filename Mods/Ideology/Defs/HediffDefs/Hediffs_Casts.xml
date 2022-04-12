@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- stances -->
+	
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_ImperialMeleeStance</defName>
+		<label>melee stance</label>
+		<description>By commanding nearby allies, this person can enhance their focus in melee combat and thus their battle performance.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		  <li Class="HediffCompProperties_GiveHediffsInRange">
+			<range>9.9</range>
+			<mote>Mote_CombatCommand</mote>
+			<hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+			<targetingParameters>
+			  <canTargetBuildings>false</canTargetBuildings>
+			  <canTargetAnimals>false</canTargetAnimals>
+			  <canTargetMechs>false</canTargetMechs>
+			  <onlyTargetColonists>true</onlyTargetColonists>
+			</targetingParameters>
+			<hediff>ESCP_ImperialMeleeStanceBuff</hediff>
+		  </li>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_ImperialMeleeStanceBuff</defName>
+		<label>melee stance</label>
+		<description>Melee combat abilities are boosted thanks to being near someone who is using the melee stance ability.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>false</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		  <li Class="HediffCompProperties_Link">
+			<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			<maxDistance>10</maxDistance>
+			<customMote>Mote_CombatCommandLinkLine</customMote>
+		  </li>
+		</comps>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <MeleeDodgeChance>3</MeleeDodgeChance>
+			  <MeleeHitChance>3</MeleeHitChance>
+			</statOffsets>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_ImperialRangedStance</defName>
+		<label>ranged stance</label>
+		<description>By commanding nearby allies, this person can enhance their focus in ranged combat and thus their battle performance.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		  <li Class="HediffCompProperties_GiveHediffsInRange">
+			<range>9.9</range>
+			<mote>Mote_CombatCommand</mote>
+			<hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+			<targetingParameters>
+			  <canTargetBuildings>false</canTargetBuildings>
+			  <canTargetAnimals>false</canTargetAnimals>
+			  <canTargetMechs>false</canTargetMechs>
+			  <onlyTargetColonists>true</onlyTargetColonists>
+			</targetingParameters>
+			<hediff>ESCP_ImperialRangedStanceBuff</hediff>
+		  </li>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_ImperialRangedStanceBuff</defName>
+		<label>ranged stance</label>
+		<description>Ranged combat abilities are boosted thanks to being near someone who is using the ranged stance ability.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>false</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		  <li Class="HediffCompProperties_Link">
+			<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			<maxDistance>10</maxDistance>
+			<customMote>Mote_CombatCommandLinkLine</customMote>
+		  </li>
+		</comps>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <AimingDelayFactor>-0.3</AimingDelayFactor>
+			  <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+			</statOffsets>
+		  </li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_ImperialDefensiveStance</defName>
+		<label>defensive stance</label>
+		<description>By commanding nearby allies, this person can enhance their focus in defensive combat and thus their battle performance.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		  <li Class="HediffCompProperties_GiveHediffsInRange">
+			<range>9.9</range>
+			<mote>Mote_CombatCommand</mote>
+			<hideMoteWhenNotDrafted>true</hideMoteWhenNotDrafted>
+			<targetingParameters>
+			  <canTargetBuildings>false</canTargetBuildings>
+			  <canTargetAnimals>false</canTargetAnimals>
+			  <canTargetMechs>false</canTargetMechs>
+			  <onlyTargetColonists>true</onlyTargetColonists>
+			</targetingParameters>
+			<hediff>ESCP_ImperialDefensiveStanceBuff</hediff>
+		  </li>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_ImperialDefensiveStanceBuff</defName>
+		<label>defensive stance</label>
+		<description>Defensive combat abilities are boosted thanks to being near someone who is using the defensive stance ability.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>false</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		  <li Class="HediffCompProperties_Link">
+			<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			<maxDistance>10</maxDistance>
+			<customMote>Mote_CombatCommandLinkLine</customMote>
+		  </li>
+		</comps>
+		<isBad>false</isBad>
+		<stages>
+		  <li>
+			<statOffsets>
+			  <IncomingDamageFactor>-0.3</IncomingDamageFactor>
+			</statOffsets>
+			<painFactor>-0.3</painFactor>
+		  </li>
+		</stages>
+	</HediffDef>
+
+	<!-- other -->
+
+	<HediffDef ParentName="RoleStatBuff">
+		<defName>ESCP_ImperialPawnFatigued</defName>
+		<label>fatigued</label>
+		<description>This pawn has been fatigued by the Star of the West. It will will rapidly become fatigued.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+		  <li Class="HediffCompProperties_Disappears">
+			<showRemainingTime>True</showRemainingTime>
+		  </li>
+		  <li Class="HediffCompProperties_DisappearsOnDeath"/>
+		</comps>
+		<isBad>true</isBad>
+		<stages>
+		  <li>
+			<restFallFactor>3</restFallFactor>
+		  </li>
+		</stages>
+	</HediffDef>
+
+</Defs>

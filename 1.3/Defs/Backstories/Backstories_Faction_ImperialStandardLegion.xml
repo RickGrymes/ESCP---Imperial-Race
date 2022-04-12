@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialLightLegionaryBackstory</defName>
+		<title>Imperial Legion light legionary</title>
+		<titleShort>Legion light legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. After finishing basic training [PAWN_nameDef] was assigned to be a light legionary, acting as a scout and skirmrisher.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionLightBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>55</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>45</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>6040</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialLightLegionaryBackstoryAlt</defName>
+		<title>Imperial Legion light legionary</title>
+		<titleShort>legion light legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. After finishing basic training [PAWN_nameDef] was assigned to be a light legionary, acting as a scout and skirmrisher for the Legion.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionLightBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>55</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>45</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>60</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialLegionQuartermasterBackstory</defName>
+		<title>Imperial Legion quartermaster</title>
+		<titleShort>Legion quatermaster</titleShort>
+		<baseDescription>[PAWN_nameDef] has been in the Imperial Legion for a few years, due to [PAWN_possesse] knowledge of logistics and background of merchantile trade withen Nibenay getting assigned as a quartermaster was logical.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Fat</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialImperialLegionQuartermasterBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>60</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialLegionQuartermasterBackstoryAlt</defName>
+		<title>Imperial Legion quartermaster</title>
+		<titleShort>Legion quatermaster</titleShort>
+		<baseDescription>[PAWN_nameDef] has been in the Imperial Legion for a few years, due to [PAWN_possesse] knowledge of logistics and background of merchantile trade withen Nibenay getting assigned as a quartermaster was logical.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialImperialLegionQuartermasterBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>60</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialLegionaryBackstory</defName>
+		<title>Imperial Legion legionary</title>
+		<titleShort>legion legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the Legion.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionStandardBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>85</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialLegionaryBackstoryAlt</defName>
+		<title>Imperial Legion legionary</title>
+		<titleShort>legion legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the Legion.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionStandardBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>85</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialHeavyLegionaryBackstory</defName>
+		<title>Imperial Legion heavy legionary</title>
+		<titleShort>legion heavy legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the Legion. Due to [PAWN_possesse]'s immense streangth they have been assigned as a heavy legionary, equipped with heavy armor and an even heavier sense of glory for the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionHeavyBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialHeavyLegionaryBackstoryAlt</defName>
+		<title>Imperial Legion heavy legionary</title>
+		<titleShort>legion heavy legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the Legion. Due to [PAWN_possesse]'s immense streangth they have been assigned as a heavy legionary, equipped with heavy armor and an even heavier sense of glory for the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionHeavyBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialLegateBackstory</defName>
+		<title>Imperial Legion legate</title>
+		<titleShort>legion legate</titleShort>
+		<baseDescription>[PAWN_nameDef] has spentmany years within the legion rising through the ranks. [PAWN_pronoun] has been around many a battlefield and has commanded legions under the supervision of the Legions general this experience has gotten them the rank of Legate in the Legion.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionLegateBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>90</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialLegateBackstoryAlt</defName>
+		<title>Imperial Legion legate</title>
+		<titleShort>legion legate</titleShort>
+		<baseDescription>[PAWN_nameDef] has spent many years within the legion rising through the ranks. [PAWN_pronoun] has been around many a battlefield and has commanded legions under the supervision of the Legions general this experience has gotten them the rank of Legate in the Legion.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionLegateBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>70</maleCommonality>
+		<femaleCommonality>30</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialGeneralBackstory</defName>
+		<title>Imperial Legion general</title>
+		<titleShort>legion general</titleShort>
+		<baseDescription>[PAWN_nameDef] has spent almost their whole life within the legion. [PAWN_pronoun] has been a part of major battles and conflicts and was hand chosed by the Emperor or high council themselves for their immense streangth in military strategy and natural intellect.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionGeneralBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>85</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_LegionImperialGeneralBackstoryAlt</defName>
+		<title>Imperial Legion general</title>
+		<titleShort>legion general</titleShort>
+		<baseDescription>[PAWN_nameDef] has spent almost their whole life within the legion. [PAWN_pronoun] has been a part of major battles and conflicts and was hand chosed by the Emperor or high council themselves for their immense streangth in military strategy and natural intellect.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCPImperialImperialLegionGeneralBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>85</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

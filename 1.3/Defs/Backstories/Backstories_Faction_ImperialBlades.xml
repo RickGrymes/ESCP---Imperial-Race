@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Blades __________-->
+
+	<!-- Blades Agent -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BladesAgentBackstory</defName>
+		<title>Imperial blades agent</title>
+		<titleShort>Blades agent</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the most elite Imperial organization and society known as the blades. The blades are the elites of the Empire, agents assigned to espionage, bodyguards to the Emperor and their lineage and protectors of the Empire as a whole. [PAWN_nameDef] is an agent assigned to conduct diplomatic espionage and sabatoge in enemy and friendly lands.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_BladesAgentBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BladesAgentBackstoryAlt</defName>
+		<title>Imperial blades agent</title>
+		<titleShort>Blades agent</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the most elite Imperial organization and society known as the blades. The blades are the elites of the Empire, agents assigned to espionage, bodyguards to the Emperor and their lineage and protectors of the Empire as a whole. [PAWN_nameDef] is an agent assigned to conduct diplomatic espionage and sabatoge in enemy and friendly lands.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_BladesAgentBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Bodyguard -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BladesBodyguardBackstory</defName>
+		<title>Imperial blades bodyguard</title>
+		<titleShort>Blades bodyguard</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the most elite Imperial organization and society known as the blades. The blades are the elites of the Empire, agents assigned to espionage, bodyguards to the Emperor and their lineage and protectors of the Empire as a whole. [PAWN_nameDef] has been assigned as a bodyguard of the Emperor and their family.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_BladesBodyguardBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BladesBodyguardBackstoryAlt</defName>
+		<title>Imperial blades bodyguard</title>
+		<titleShort>Blades bodyguard</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the most elite Imperial organization and society known as the blades. The blades are the elites of the Empire, agents assigned to espionage, bodyguards to the Emperor and their lineage and protectors of the Empire as a whole. [PAWN_nameDef] has been assigned as a bodyguard of the Emperor and their family.</baseDescription>
+		<slot>Adulthood</slot>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_BladesBodyguardBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Warrior -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BladesWarriorBackstory</defName>
+		<title>Imperial blades Warrior</title>
+		<titleShort>Blades warrior</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the most elite Imperial organization and society known as the blades. The blades are the elites of the Empire, agents assigned to espionage, bodyguards to the Emperor and their lineage and protectors of the Empire as a whole. [PAWN_nameDef] has trained to fight foes on the battlefield as a warrior and if needed die protecting the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Imperial_BladesWarriorBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BladesSoldierBackstoryAlt</defName>
+		<title>Imperial blades Warrior</title>
+		<titleShort>Blades warrior</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the most elite Imperial organization and society known as the blades. The blades are the elites of the Empire, agents assigned to espionage, bodyguards to the Emperor and their lineage and protectors of the Empire as a whole. [PAWN_nameDef] has trained to fight foes on the battlefield as a warrior and if needed die protecting the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+        <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Imperial_BladesWarriorBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>
