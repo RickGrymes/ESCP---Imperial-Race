@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
+
 	<name>ESCP - Imperial</name>
-	<packageId>SirMashedPotato.ESCP.Imperial</packageId>
-	<author>SirMashedPotato</author>
+	<packageId>Rick.ESCP.Imperial</packageId>
+	<author>Rick, SirMashedPotato</author>
 	<supportedVersions>
     	<li>1.3</li>
 	</supportedVersions>
-	<description>Adds in the Imperial using Humanoid Alien Race Framework. Imperial are fairly similar to humans. They have much higher psychic sensitivity, toxic sensitivity and learning speed. They have an increased social impact, researching speed and immunity gain speed. They have a decreased base health and mining speed.\n\n-Supports Vanilla Achievements Expanded\n-Requires Harmony\n-Requires Humanoid Alien Races 2.0\n-Based on the 'Elder Scrolls' series by Bethesda Game Studios.
+	<description>
+	Adds in the Imperials using Humanoid Alien Race Framework. Imperials are fairly similar to humans. They have much higher psychic sensitivity, toxic sensitivity and learning speed. They have an increased social impact, researching speed and immunity gain speed. They have a decreased base health and mining speed.\n\n-Supports Vanilla Achievements Expanded\n-Requires Harmony\n-Requires Humanoid Alien Races 2.0\n-Based on the 'Elder Scrolls' series by Bethesda Game Studios.
 	</description>
 	<modDependencies>
 	  <li>

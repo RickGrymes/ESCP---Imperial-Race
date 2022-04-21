@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Imperial Arcane University  __________-->
+
+	<!-- Student -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ArcaneUniversityStudentBackstory</defName>
+		<title>Arcane university student</title>
+		<titleShort>Arcane university StudentBackstory</titleShort>
+		<baseDescription>[PAWN_nameDef] is a student of the most prestigious arcane university in the Empire. Learning to be a mage and one day join the Imperial guard</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>12</maleCommonality>
+		<femaleCommonality>12</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ArcaneUniversityStudentBackstoryAlt</defName>
+		<title>Arcane university student</title>
+		<titleShort>Arcane university Student</titleShort>
+		<baseDescription>[PAWN_nameDef] is a student of the most prestigious arcane university in the Empire. Learning to be a mage and one day join the Imperial guard</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Mage</defName>
+				<degree>1</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>12</maleCommonality>
+		<femaleCommonality>12</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Teacher -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ArcaneUniversityTeacherBackstory</defName>
+		<title>Arcane university teacher</title>
+		<titleShort>Arcane university teacher</titleShort>
+		<baseDescription>[PAWN_nameDef] is a teacher at one of the greatest centers for learning magic in Tamriel, the Imperial arcane university.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+                    <degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Battlemage -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BattlemageBackstory</defName>
+		<title>Imperial battlemage</title>
+		<titleShort>Imperial battlemage</titleShort>
+		<baseDescription>[PAWN_nameDef] is an Imperial battlemage, having graduted from the Arcane university they tend to be smarter and better at magic than most trained mages.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+                    <degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>8</maleCommonality>
+		<femaleCommonality>8</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_BattlemageBackstoryAlt</defName>
+		<title>Imperial battlemage</title>
+		<titleShort>Imperial battlemage</titleShort>
+		<baseDescription>[PAWN_nameDef] is an Imperial battlemage, having graduted from the Arcane university they tend to be smarter and better at magic than most trained mages.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>100</chance>
+			</li>
+			<li>
+				<defName>ESCP_Mage</defName>
+                    <degree>3</degree>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+			<li>
+				<defName>DrugDesire</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>8</maleCommonality>
+		<femaleCommonality>8</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+</Defs>

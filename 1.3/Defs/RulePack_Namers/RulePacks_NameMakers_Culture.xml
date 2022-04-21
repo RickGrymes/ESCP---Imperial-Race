@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- Imperial -->
+
   <RulePackDef>
     <defName>ESCP_LeaderTitleMaker_Imperial</defName>
     <include>
@@ -33,6 +35,44 @@
       </rulesStrings>
 	  <rulesFiles>
         <li>ImperialGods->ESCP_ImperialNames/ImperialGods</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <!-- Rim-Men -->
+
+  <RulePackDef>
+    <defName>ESCP_LeaderTitleMaker_ImperialTsaesci</defName>
+    <include>
+      <li>LeaderTitleMaker_GlobalStructure</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>memeLeaderNoun(priority=1)->[cultureLeaderNoun]</li> <!-- ignore all meme nouns, tribals always use a culture noun -->
+
+        <li>cultureLeaderTitle->[cultureLeaderAdjective] [cultureLeaderNoun]</li>
+
+        <li>cultureLeaderAdjective->great</li>
+        <li>cultureLeaderAdjective->high</li>
+        <li>cultureLeaderAdjective->first</li>
+        <li>cultureLeaderAdjective->grand</li>
+
+        <li>cultureLeaderNoun->Potentate</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>ESCP_NamerDeity_ImperialTsaesci</defName>
+	<include>
+      <li>NamerDeityGlobal</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TsaesciGods]</li>
+      </rulesStrings>
+	  <rulesFiles>
+        <li>TsaesciGods->ESCP_ImperialNames/TsaesciGods</li>
       </rulesFiles>
     </rulePack>
   </RulePackDef>

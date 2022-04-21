@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenarioDef>
+    <defName>ESCP_Imperial_Kingdom</defName>
+    <label>Imperial Kingdom</label>
+    <description>Your settlement was attakced by raiders, now is your time to remake your kingdom and rebuild from the ground up.</description>
+    <scenario>
+      <summary>Five Imperials attempt to build a new Kingdom. Difficult.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>ESCP_ImperialPlayerKingdom</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>5</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+
+        <!-- Player pawns modifiers -->
+        <li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.5</chance>
+          <hediff>Malnutrition</hediff>
+          <severityRange>0.2~0.4</severityRange>
+        </li>
+        <li Class="ScenPart_SetNeedLevel">
+          <def>SetNeedLevel</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>1.0</chance>
+          <need>Food</need>
+          <levelRange>0~0.1</levelRange>
+        </li>
+
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>200</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Pemmican</thingDef>
+          <count>400</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_LongSword</thingDef>
+          <stuff>Steel</stuff>
+          <count>2</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Bow_Short</thingDef>
+          <count>2</count>
+		  <stuff MayRequire="sihv.rombones">WoodLog</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Pila</thingDef>
+		  <stuff MayRequire="sihv.rombones">WoodLog</stuff>
+        </li>
+
+        <!-- Scatter some things near player start -->
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>500</count>
+        </li>
+
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>Your village has been sacked and raided, your people dispersed and your soldiers killed.\n\nOnly a few of your peolpe remain.\n\nThis is the time to start anew, a time to rebuild, but not a simple village. Now is time to build a new kingdom of men, a kingdom of Imperials.</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+
+      </parts>
+    </scenario>
+  </ScenarioDef>
+  
+</Defs>

@@ -3,10 +3,12 @@
 
     <!--__________ Non Imperial Legion Backstories __________-->
 
-    <!-- Orsimer -->
+    <!--_____ Orsimer _____-->
+
+	<!-- HeavyLegionary -->
 
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_Imperial_IVLegionImperialHeavyLegionaryBackstoryOrsimer</defName>
+		<defName>ESCP_Orsimer_IVLegionImperialHeavyLegionaryBackstoryOrsimer</defName>
 		<title>Imperial IV Legion heavy legionary</title>
 		<titleShort>IV legion heavy legionary</titleShort>
 		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the IV Legion. Due to [PAWN_possessive]'s immense streangth they have been assigned as a heavy legionary, equipped with heavy armor and an even heavier sense of glory for the Empire.</baseDescription>
@@ -41,6 +43,209 @@
 		</disallowedTraits>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Orsimer_IVLegionImperialHeavyLegionaryBackstoryOrsimerAlt</defName>
+		<title>Imperial IV Legion heavy legionary</title>
+		<titleShort>IV legion heavy legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the IV Legion. Due to [PAWN_possessive]'s immense streangth they have been assigned as a heavy legionary, equipped with heavy armor and an even heavier sense of glory for the Empire.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Orismer_IVImperialLegionHeavyBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<disallowedTraits>
+			<li>
+				<defName>ESCP_Imperial_Heartlander</defName>
+			</li>
+            <li>
+				<defName>ESCP_Imperial_Colovian</defName>
+			</li>
+           <li>
+				<defName>ESCP_Imperial_Nibenese</defName>
+			</li>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<!-- Standard Legionary -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Orsimer_IVLegionImperialLegionaryBackstoryOrsimer</defName>
+		<title>Imperial IV Legion legionary</title>
+		<titleShort>IV legion legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the IV Legion.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Orsimer_IVImperialLegionStandardBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>ESCP_Imperial_Heartlander</defName>
+			</li>
+            <li>
+				<defName>ESCP_Imperial_Colovian</defName>
+			</li>
+           <li>
+				<defName>ESCP_Imperial_Nibenese</defName>
+			</li>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_IVLegionImperialLegionaryBackstoryOrsimerAlt</defName>
+		<title>Imperial IV Legion legionary</title>
+		<titleShort>IV legion legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the IV Legion.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Orsimer_IVImperialLegionStandardBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>ESCP_Imperial_Heartlander</defName>
+			</li>
+            <li>
+				<defName>ESCP_Imperial_Colovian</defName>
+			</li>
+           <li>
+				<defName>ESCP_Imperial_Nibenese</defName>
+			</li>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+    <!--_____ Dunmer _____-->
+
+	<!-- Light Legionary -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_IVLegionImperialLightLegionaryBackstoryDunmer</defName>
+		<title>IV Imperial Legion light legionary</title>
+		<titleShort>IV legion light legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. After finishing basic training [PAWN_nameDef] was assigned to be a light legionary, acting as a scout and skirmrisher for the IV Legion.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_Dunmer_IVImperialLegionaryBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_IVLegionImperialLightLegionaryBackstoryDunmerAlt</defName>
+		<title>IV Imperial Legion light legionary</title>
+		<titleShort>IV legion light legionary</titleShort>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. After finishing basic training [PAWN_nameDef] was assigned to be a light legionary, acting as a scout and skirmrisher for the IV Legion.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_Dunmer_IVImperialLegionaryBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+		</disallowedTraits>
+		<maleCommonality>100</maleCommonality>
+		<femaleCommonality>100</femaleCommonality>
+		<workDisables>
+		</workDisables>
 	</AlienRace.BackstoryDef>
 
 </Defs>

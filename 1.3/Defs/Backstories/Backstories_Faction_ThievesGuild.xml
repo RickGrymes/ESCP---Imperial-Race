@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Thieves Guild __________-->
+
+	<!-- Thief -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ThievesGuildThiefBackstory</defName>
+		<title>Thieves Guild thief</title>
+		<titleShort>guild thief</titleShort>
+		<baseDescription>As a low ranking member of the Thieves Guild, [PAWN_nameDef] typically took the jobs that paid the least, and had the most to loose from. This usually meant trying to steal small trinkits and low quality jewls from locals.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialThievesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<!-- Pickpocket -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ThievesGuildPickpocketBackstory</defName>
+		<title>Thieves Guild pickpocket</title>
+		<titleShort>guild pickpocket</titleShort>
+		<baseDescription>Being a pickpocket, [PAWN_nameDef] has learned when to take a job and when to leave one. Sometimes [PAWN_NameDef] would get caught, but quick hands can also cause a hard hit.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialThievesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Fence -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ThievesGuildDrillmasterBackstory</defName>
+		<title>Thieves Guild Fence</title>
+		<titleShort>guild fence</titleShort>
+		<baseDescription>[PAWN_nameDef] has always been good with money, and making something look new. [PAWN_pronoun] made amazing use of this skill and found their way to working in the Thieves Guild more often than not.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		  <li>ESCP_ImperialThievesGuildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+			<li>
+				<defName>Wimp</defName>
+			</li>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>25</maleCommonality>
+		<femaleCommonality>25</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>

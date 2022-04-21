@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--__________ Imperial Legion __________-->
+
+	<!-- Imperial Light Legionary -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_LegionImperialLightLegionaryBackstory</defName>
 		<title>Imperial Legion light legionary</title>
@@ -25,12 +29,16 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
-				<chance>55</chance>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Nibenese</defName>
-				<chance>45</chance>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -41,7 +49,7 @@
 				<defName>Brawler</defName>
 			</li>
 		</disallowedTraits>
-		<maleCommonality>6040</maleCommonality>
+		<maleCommonality>50</maleCommonality>
 		<femaleCommonality>50</femaleCommonality>
 		<workDisables>
 		</workDisables>
@@ -70,12 +78,16 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
-				<chance>55</chance>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Nibenese</defName>
-				<chance>45</chance>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -86,11 +98,13 @@
 				<defName>Brawler</defName>
 			</li>
 		</disallowedTraits>
-		<maleCommonality>60</maleCommonality>
-		<femaleCommonality>40</femaleCommonality>
+		<maleCommonality>50</maleCommonality>
+		<femaleCommonality>50</femaleCommonality>
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Quartermaster -->
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_ImperialLegionQuartermasterBackstory</defName>
@@ -122,6 +136,10 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
 			<li>
 			    <defName>ESCP_Imperial_Nibenese</defName>
 				<chance>100</chance>
@@ -170,6 +188,10 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
 			    <defName>ESCP_Imperial_Nibenese</defName>
 				<chance>100</chance>
 			</li>
@@ -185,6 +207,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Standard Legionary -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_LegionImperialLegionaryBackstory</defName>
 		<title>Imperial Legion legionary</title>
@@ -209,12 +233,16 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
-				<chance>85</chance>
-			</li>
-			<li>
 			    <defName>ESCP_Imperial_Nibenese</defName>
 				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -251,12 +279,16 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
-				<chance>85</chance>
-			</li>
-			<li>
 			    <defName>ESCP_Imperial_Nibenese</defName>
 				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -269,6 +301,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Heavy Legionary -->
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_LegionImperialHeavyLegionaryBackstory</defName>
@@ -293,6 +327,10 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
 			<li>
 			    <defName>ESCP_Imperial_Colovian</defName>
 				<chance>100</chance>
@@ -332,6 +370,10 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
 			    <defName>ESCP_Imperial_Colovian</defName>
 				<chance>100</chance>
 			</li>
@@ -346,6 +388,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Legate -->
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_LegionImperialLegateBackstory</defName>
@@ -375,12 +419,16 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
-				<chance>90</chance>
-			</li>
-			<li>
 			    <defName>ESCP_Imperial_Nibenese</defName>
 				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>100</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -425,6 +473,10 @@
 				<chance>10</chance>
 			</li>
 			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>10</chance>
+			</li>
+			<li>
 			    <defName>ESCP_Imperial_Colovian</defName>
 				<chance>100</chance>
 			</li>
@@ -439,6 +491,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Gneral -->
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_LegionImperialGeneralBackstory</defName>
@@ -467,6 +521,14 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>50</chance>
+			</li>
 			<li>
 			    <defName>ESCP_Imperial_Colovian</defName>
 				<chance>100</chance>
@@ -509,6 +571,14 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>50</chance>
+			</li>
 			<li>
 			    <defName>ESCP_Imperial_Colovian</defName>
 				<chance>100</chance>

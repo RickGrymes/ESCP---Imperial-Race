@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<!--__________ Imperial Player Factions __________-->
   
+	<!-- Faction Base -->
+
 	<FactionDef ParentName="PlayerFactionBase">
 		<defName>ESCP_ImperialPlayerColony</defName>
 		<label>Imperial arrivals</label>
@@ -38,6 +42,8 @@
 		</apparelStuffFilter>
 	</FactionDef>
 	
+	<!-- Player Tribal -->
+
 	<FactionDef ParentName="PlayerFactionBase">
 		<defName>ESCP_ImperialPlayerTribe</defName>
 		<label>New Imperial Tribe</label>
@@ -98,7 +104,7 @@
 			</categories>
 		  </li>
 		</backstoryFilters>
-		<factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlement</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialLegionAlt</factionIconPath>
 		<settlementTexturePath>World/WorldObjects/TribalSettlement</settlementTexturePath>
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionTribal</factionNameMaker>

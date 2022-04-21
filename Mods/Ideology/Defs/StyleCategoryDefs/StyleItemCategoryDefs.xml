@@ -4,15 +4,19 @@
   <!-- Categories -->
 
   <StyleItemCategoryDef>
-    <defName>ESCP_ImperialColovianStyle</defName>
+    <defName>ESCP_ColovianStyle</defName>
     <label>Colovian</label>
   </StyleItemCategoryDef>
 
   <StyleItemCategoryDef>
-    <defName>ESCP_ImperialNibeneseStyle</defName>
+    <defName>ESCP_NibeneseStyle</defName>
     <label>Nibenese</label>
   </StyleItemCategoryDef>
 
+  <StyleItemCategoryDef>
+    <defName>ESCP_HeartlanderStyle</defName>
+    <label>Heartlander</label>
+  </StyleItemCategoryDef>
 
 </Defs>
 

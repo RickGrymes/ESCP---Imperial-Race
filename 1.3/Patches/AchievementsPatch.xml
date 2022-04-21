@@ -29,7 +29,7 @@
 							<incident>ESCP_ImperialJoins</incident>
 						</AchievementsExpanded.Reward_MapIncident>
 						
-						<!-- -->
+						<!-- Achievements-->
 
 						<AchievementsExpanded.AchievementDef>
 							<defName>ESCP_ImperialSlayer</defName>
@@ -79,13 +79,13 @@
 						</AchievementsExpanded.AchievementDef>
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_ImperialDragonSlayer</defName>
-							<label>Imperial Dragon Slayer</label>
-							<description>Slay an Imperial Dragon belonging to any Imperial faction</description>
+							<defName>ESCP_ImperialGeneralSlayer</defName>
+							<label>Imperial General Slayer</label>
+							<description>Slay an Imperial General belonging to any Imperial faction</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundImperial</bgtexPath>
 							<tab>ESCP_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.KillTracker">
-								<kindDef>ESCP_ImperialTribal_ChiefMelee</kindDef>
+								<kindDef>ESCP_Imperial_IV_Legion_General</kindDef>
 								<count>1</count>
 							</tracker>
 
@@ -126,7 +126,7 @@
 							<texPath>Achievements/ESCP_AchievementImperialNamedSeptim</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						<!--
+						
 						<AchievementsExpanded.AchievementDef>
 							<defName>ESCP_AchievementImperialBloodmoonRivals</defName>
 							<label>Raven Rock Rivals</label>
@@ -150,7 +150,7 @@
 							<texPath>Achievements/ESCP_AchievementImperialBloodmoonRivals</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						-->
+						
 						<AchievementsExpanded.AchievementDef>
 							<defName>ESCP_AchievementImperialNamedRichardious</defName>
 							<label>Long Live the Empire!</label>

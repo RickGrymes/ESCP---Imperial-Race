@@ -17,17 +17,18 @@
 		</rulePack>
 	</RulePackDef>
   
-	<!-- <RulePackDef>
-		<defName>ESCP_NamerFactionImperialColonies</defName>
+	<!-- Rim-Men -->
+
+	<RulePackDef>
+		<defName>ESCP_NamerSettlementRimMen</defName>
 		<rulePack>
 		  <rulesStrings>
-			<li>r_name->Imperial Colonies of [ImperialGods]</li>
+			<li>r_name->Tonenaka</li>
 		  </rulesStrings>
 		  <rulesFiles>
-			<li>ImperialGods->ESCP_ImperialNames/ImperialGods</li>
 		  </rulesFiles>
 		</rulePack>
-	</RulePackDef> -->
+	</RulePackDef>
 	
 	<!-- Legion -->
 	

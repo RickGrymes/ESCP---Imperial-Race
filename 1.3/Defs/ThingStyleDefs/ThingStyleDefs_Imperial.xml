@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingStyleDef>
+    <defName>ESCP_ColovianSculptureSmall</defName>
+	<graphicData>
+      <texPath>Things/Building/BuildingStyles/Sculptures/ESCP_ColovianSculptureSmall</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <!-- <ThingStyleDef>
+    <defName>ESCP_ColovianStatue</defName>
+	<graphicData>
+      <texPath>Things/Building/BuildingStyles/Sculptures/ESCP_ColovianStatue</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+  </ThingStyleDef> -->
+
+  <ThingStyleDef>
+    <defName>ESCP_NibeneseSculptureSmall</defName>
+	<graphicData>
+      <texPath>Things/Building/BuildingStyles/Sculptures/ESCP_NibeneseSculptureSmall</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>ESCP_HeartlanderSculptureSmall</defName>
+	<graphicData>
+      <texPath>Things/Building/BuildingStyles/Sculptures/ESCP_HeartlanderSculptureSmall</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>

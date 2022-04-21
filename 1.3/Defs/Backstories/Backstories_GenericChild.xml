@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- Generic -->
+	<!--__________ Generic Child __________-->
+
+	<!-- Base Backstories for children spawn -->
 
 	<AlienRace.BackstoryDef Name="ESCP_ImperialChildBackstoryBase" Abstract="True">
 		<slot>Childhood</slot>
 		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
 		  <li>ESCP_ImperialChildBackstory</li>
+		  <li>ESCP_ImperialRimMenBackstory</li>
+		  <li>ESCP_ImperialRimMenChildBackstory</li>
 		  <li>ESCP_ImperialFightersGuildBackstory</li>
 		  <li>ESCP_ImperialMagesGuildBackstory</li>
 		  <li>ESCP_Imperial_PenitusOculatisBackstory</li>
 		  <li>ESCP_Imperial_ImperialNavyEnlistedBackstory</li>
 		  <li>ESCP_Imperial_ImperialNavyOfficerBackstory</li>
-		  <li>ESCPImperialImperialWatchScoutBackstory</li>
-		  <li>ESCPImperialImperialLegionWatchBackstory</li>
-		  <li>ESCPImperialImperialPalaceGuardBackstory</li>
-		  <li>ESCPImperialImperialWatchCaptainBackstory</li>
+		  <li>ESCP_Imperial_ImperialWatchScoutBackstory</li>
+		  <li>ESCP_Imperial_ImperialLegionWatchBackstory</li>
+		  <li>ESCP_Imperial_ImperialPalaceGuardBackstory</li>
+		  <li>ESCP_Imperial_ImperialWatchCaptainBackstory</li>
 		  <li>ESCP_Imperial_IVImperialLegionLightBackstory</li>
 		  <li>ESCP_Imperial_IVImperialLegionQuartermasterBackstory</li>
 		  <li>ESCP_Imperial_IVImperialLegionStandardBackstory</li>
@@ -27,6 +32,8 @@
 		  <li>ESCP_Imperial_BladesWarriorBackstory</li>
 		</spawnCategories>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Street Rat -->
 
 	<AlienRace.BackstoryDef ParentName="ESCP_ImperialChildBackstoryBase">
 		<defName>ESCP_Imperial_StreetRat</defName>
@@ -57,6 +64,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
+	<!-- Imperial Apprentice Mage -->
+
     <AlienRace.BackstoryDef ParentName="ESCP_ImperialChildBackstoryBase">
 		<defName>ESCP_Imperial_ApprenticeMage</defName>
 		<title>mage's apprentice</title>
@@ -83,17 +92,19 @@
 				<degree>1</degree>
 				<chance>15</chance>
 			</li>
-			<!-- <li>
+			<li>
 				<defName>ESCP_Mage</defName>
 				<degree>1</degree>
 				<chance>15</chance>
-			</li> -->
+			</li>
 		</forcedTraits>
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial House Servant -->
 
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_HouseServant</defName>
@@ -118,6 +129,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Noble -->
 
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_Noble</defName>
@@ -154,6 +167,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
     
+	<!-- Imperial Fieldhand -->
+
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_Fieldhand</defName>
 		<title>Rice fieldhand</title>
@@ -177,6 +192,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Village Child -->
 
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_VillageChild</defName>
@@ -214,6 +231,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
+	<!-- Imperial Assistant Alchemist -->
+
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_AssistantAlchemist</defName>
 		<title>Alchemist's assistant</title>
@@ -246,6 +265,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef> 
 
+	<!-- Imperial Mythic Dawn Cultist Parents -->
+
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_MythicDawnChild</defName>
 		<title>Mythic dawn child</title>
@@ -273,6 +294,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>  
+
+	<!-- Imperial Pantheon Attendent -->
 
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_TempleAttendant</defName>
@@ -302,6 +325,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>  
 
+	<!-- Imperial Ships Mate -->
+
      <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_ShipsMate</defName>
 		<title>ship's mate</title>
@@ -325,6 +350,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>         
+
+	<!-- Imperial Fighters Guild Trainee -->
 
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_FightersGuildTrainee</defName>
@@ -355,6 +382,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>    
 
+	<!-- Imperial Shopkeeps Assistant -->
+
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_ShopkeepsAssistant</defName>
 		<title>shopkeep's assistant</title>
@@ -382,6 +411,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>    
+
+	<!-- Imperial Blacksmiths Apprentice -->
 
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_BlacksmithsApprentice</defName>
@@ -412,6 +443,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>    
 
+	<!-- Imperial Stablehand -->
+
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_StableHand</defName>
 		<title>Stable hand</title>
@@ -435,6 +468,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Student -->
 
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_AyliedHistoryStudent</defName>
@@ -467,6 +502,8 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Bandit Parents -->
 
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_BanditChild</defName>
@@ -501,6 +538,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 
+	<!-- Imperial Child Adventurer -->
+
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_YoungAdventurer</defName>
 		<title>young adventurer</title>
@@ -534,6 +573,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>       
 
+	<!-- Imperial Healer Trainee -->
+
     <AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_HealerInTraining</defName>
 		<title>healer-in-training</title>
@@ -560,6 +601,137 @@
 		</disallowedTraits>
 		<workDisables>
 		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!--__________ Rim-Men __________-->
+
+	<!-- Imperial Rimmen Spiritual Healer Trainee -->
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_ImperialRimmen_SpiritualHealerInTraining</defName>
+		<title>Spiritual healer in training</title>
+		<titleShort>Spiritual healer in training</titleShort>
+		<baseDescription>[PAWN_nameDef] was taken as a young age to learn from one of the healers in Tonenaka the serpent temple of Tsaesci. [PAWN_pronoun] was taught to lay hands on the weak and mix potions at the mages guild in Anvil.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialRimMenChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Medicine</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>2</amount>
+			</li>            
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Rimmen Shopkeeps Assistant -->
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_ImperialRimmen_ShopkeepsAssistant</defName>
+		<title>Rimmen shopkeep's assistant</title>
+		<titleShort>shopkeep's assistant</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up tending a shop near the temple of Tonenaka. [PAWN_pronoun] always made sure that everything was kept in perfect order, making sure what valuable and sellable items they had was in stock and well kept.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialRimMenChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
 	</AlienRace.BackstoryDef>    
+
+	<!-- Imperial Rimmen Blacksmith Apprentice -->
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_ImperialRimmen_BlacksmithsApprentice</defName>
+		<title>blacksmith's apprentice</title>
+		<titleShort>blacksmith's apprentice</titleShort>
+		<baseDescription>[PAWN_nameDef] apprenticed to a blacksmith in Rimmen. [PAWN_pronoun] was in charge of cleaning the tools and learning from the Rim-Men masters and old Tsaesci ways.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialRimMenChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Crafting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Construction</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>   
    
+	<!-- Imperial Rimmen Village Child -->
+
+    <AlienRace.BackstoryDef>
+		<defName>ESCP_ImperialRimmen_VillageChild</defName>
+		<title>Rimmen village child</title>
+		<titleShort>Village child</titleShort>
+		<baseDescription>[PAWN_nameDef] was born in Rimmen near the Tonenaka Temple like many of the excommunicated decendents of the Tsaesci. [PAWN_pronoun] learned simple skills in and found work when it was needed be it herding animals or cleaning up the smiths tools.</baseDescription>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialRimMenChildBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Construction</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>1</amount>
+			</li>
+			<li>
+				<defName>Plants</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+
 </Defs>

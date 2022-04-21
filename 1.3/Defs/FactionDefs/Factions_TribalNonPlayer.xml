@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!--__________ Facation Base __________-->
+
   <!-- Tribal -->
 
   <FactionDef ParentName="ESCP_FactionBase" Name="ESCP_ImperialTribeBase" Abstract="True">
     <leaderTitle>Emperor</leaderTitle>
     <requiredCountAtGameStart>0</requiredCountAtGameStart>
-	  <startingCountAtWorldCreation>1</startingCountAtWorldCreation>
+	  <startingCountAtWorldCreation>0</startingCountAtWorldCreation>
     <canMakeRandomly>true</canMakeRandomly>
     <canStageAttacks>true</canStageAttacks>
     <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlement</factionIconPath>
@@ -15,14 +17,14 @@
 	  </allowedCultures>
     <!-- Don't enable unless there are actually backstories -->
 		
-		<!-- <backstoryFilters>
+		<backstoryFilters>
 		  <li>
 			<categories>
 			  <li>ESCP_ImperialBackstory</li>
 			</categories>
 			<commonality>1</commonality>
 		  </li>
-		</backstoryFilters> -->
+		</backstoryFilters>
 		
     <caravanTraderKinds>
     </caravanTraderKinds>
@@ -33,79 +35,9 @@
     <raidLootMaker>ESCP_ImperialTribeRaidLootMaker</raidLootMaker>
     <pawnGroupMakers>
       <li>
-        <!-- Normal fights, ranged with melee mix-ins -->
-        <kindDef>Combat</kindDef>
-        <commonality>100</commonality>
-        <options>
-          <ESCP_Imperial_IV_Legion_Light_Legionary>5</ESCP_Imperial_IV_Legion_Light_Legionary>
-          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
-          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
-          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
-          <ESCP_Imperial_IV_Legion_Legate>2</ESCP_Imperial_IV_Legion_Legate>
-          <ESCP_Imperial_IV_Legion_General>1.5</ESCP_Imperial_IV_Legion_General>
-	   </options>
-      </li>
-      <li>
-        <!-- Normal fights, ranged only -->
-        <kindDef>Combat</kindDef>
-        <commonality>60</commonality>
-        <options>
-          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
-          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
-          <ESCP_Imperial_IV_Legion_Legionary>5</ESCP_Imperial_IV_Legion_Legionary>
-        </options>
-      </li>
-	  <li>
-        <!-- Normal fights, melee only with Bosmer mix-ins -->
-        <kindDef>Combat</kindDef>
-        <commonality>40</commonality>
-        <options>
-		      <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
-          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
-          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
-          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
-        </options>
-      </li>
-	  <li>
-        <!-- Normal fights, ranged only with Orsimer mix-ins -->
-        <kindDef>Combat</kindDef>
-        <commonality>40</commonality>
-        <options>
-          <ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer MayRequire="SirMashedPotato.ESCP.Orsimer">10</ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer>
-          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
-          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
-          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
-          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
-        </options>
-      </li>
-      <li>
-        <!-- Normal fights, melee only -->
-        <kindDef>Combat</kindDef>
-        <commonality>30</commonality>
-        <options>
-          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
-          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
-          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
-          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
-      </options>
-      </li>
-      <li>
-        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
-        <kindDef>Combat</kindDef>
-        <commonality>5</commonality>
-        <options>
-          <ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer MayRequire="SirMashedPotato.ESCP.Orsimer">5</ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer>
-          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
-          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>5</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
-          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
-          <ESCP_Imperial_IV_Legion_Heavy_Legionary>10</ESCP_Imperial_IV_Legion_Heavy_Legionary>
-          <ESCP_Imperial_IV_Legion_Legate>2</ESCP_Imperial_IV_Legion_Legate>
-          <ESCP_Imperial_IV_Legion_General>1</ESCP_Imperial_IV_Legion_General>
-      </options>
-      </li>
-      <li>
         <!-- Peaceful -->
         <kindDef>Peaceful</kindDef>
+
         <options>
           <ESCP_Imperial_IV_Legion_Light_Legionary>20</ESCP_Imperial_IV_Legion_Light_Legionary>
           <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
@@ -196,27 +128,34 @@
     </root>
   </ThingSetMakerDef>
   
+  <!--__________ Imperial Faction Defs __________-->
+
+  <!-- Nibenese Towns -->
+
   <FactionDef ParentName="ESCP_ImperialTribeBase">
     <defName>ESCP_ImperialTribeCivil</defName>
     <label>Nibenese Towns</label>
     <fixedName>Nibenese Towns</fixedName>
-	<description>A collection of Nibenese Towns, a common sight in eastern Cyrodiil. These opulent settlements are home to a vast array of merchants and traders, who are always open for business. Hubs of cultural exchange, these Imperials are quick to welcome alliances with outsiders. But beware to any would-be attackers, while the cities are friendly, they are also extremely well guarded by the formidable Imperial Watch.</description>
-	<modExtensions>
-		<li Class="ESCP_RaceTools.SettlementPreference">
-			<chance>0.8</chance>
-			<onlyRoad>true</onlyRoad>
-			<useTemperatureRange>true</useTemperatureRange>
-			<temperatureRangeMin>-10</temperatureRangeMin>
-			<temperatureRangeMax>45</temperatureRangeMax>
-			<useSwampinessRange>true</useSwampinessRange>
-			<swampinessRangeMin>0.0</swampinessRangeMin>
-			<swampinessRangeMax>0.8</swampinessRangeMax>
-			<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
-        </li>
-	</modExtensions>
-	<colorSpectrum>
-      <li>(0.8, 0.4, 0.3)</li>
-      <li>(0.8, 0.5, 0.2)</li>
+    <leaderTitle>Prince</leaderTitle>
+    <structureMemeWeights>
+      <ESCP_Structure_OriginDivinesNine MayRequire="Ludeon.RimWorld.Ideology">999</ESCP_Structure_OriginDivinesNine>
+    </structureMemeWeights>
+	  <description>A collection of Nibenese Towns, a common sight in eastern Cyrodiil. These opulent settlements are home to a vast array of merchants and traders, who are always open for business. Hubs of cultural exchange, these Imperials are quick to welcome alliances with outsiders. But beware to any would-be attackers, while the cities are friendly, they are also extremely well guarded by the formidable Imperial Watch.</description>
+    <modExtensions>
+      <li Class="ESCP_RaceTools.SettlementPreference">
+        <chance>0.8</chance>
+        <onlyRoad>true</onlyRoad>
+        <useTemperatureRange>true</useTemperatureRange>
+        <temperatureRangeMin>-10</temperatureRangeMin>
+        <temperatureRangeMax>45</temperatureRangeMax>
+        <useSwampinessRange>true</useSwampinessRange>
+        <swampinessRangeMin>0.0</swampinessRangeMin>
+        <swampinessRangeMax>0.8</swampinessRangeMax>
+        <IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
+      </li>
+    </modExtensions>
+	  <colorSpectrum>
+      <li>(1, 0.2, 0.3)</li>
     </colorSpectrum>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
@@ -228,27 +167,75 @@
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
     </disallowedMemes>
     <settlementNameMaker>ESCP_NamerSettlementNibenese</settlementNameMaker>
+    <settlementTexturePath>World/WorldObjects/Expanding/ESCP_ImperialNibeneseVineyard</settlementTexturePath>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>40</configurationListOrderPriority>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <ESCP_Imperial_Watch_Horseman>5</ESCP_Imperial_Watch_Horseman>
+          <ESCP_Imperial_Watch>20</ESCP_Imperial_Watch>
+          <ESCP_Imperial_Watch_Palace_Guard>2</ESCP_Imperial_Watch_Palace_Guard>
+          <ESCP_Imperial_Watch_Captain>1</ESCP_Imperial_Watch_Captain>
+	      </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_Imperial_Watch_Horseman>25</ESCP_Imperial_Watch_Horseman>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <options>
+          <ESCP_Imperial_Watch>20</ESCP_Imperial_Watch>
+          <ESCP_Imperial_Watch_Horseman>10</ESCP_Imperial_Watch_Horseman>
+          <ESCP_Imperial_Watch_Palace_Guard>5</ESCP_Imperial_Watch_Palace_Guard>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, Blades only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_Imperial_Blades_Bodyguard>10</ESCP_Imperial_Blades_Bodyguard>
+          <ESCP_Imperial_Blades_Warrior>25</ESCP_Imperial_Blades_Warrior>
+          <ESCP_Imperial_Blades_Agent>5</ESCP_Imperial_Blades_Agent>
+        </options>
+      </li>
+      </pawnGroupMakers>
   </FactionDef>
   
+  <!-- Imperial Colonies -->
+
   <FactionDef ParentName="ESCP_ImperialTribeBase">
     <defName>ESCP_ImperialColony</defName>
     <label>East Empire Company</label>
     <fixedName>East Empire Company</fixedName>
-	<description>A collection of Imperial colonies. While more rough around the edges than their more cosmopolitan counterparts, Imperial colonies are the eyes and ears of the Empire throughout the land, but exist more prominently on the edges of it's influence. Smaller than cities, and less guarded, colonies can still offer a surprising variety of items for trade, but some are less open to outsiders than others. This particular colony pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</description>
-	<modExtensions>
-		<li Class="ESCP_RaceTools.SettlementPreference">
-			<chance>1.0</chance>
-			<useTemperatureRange>true</useTemperatureRange>
-			<temperatureRangeMin>-15</temperatureRangeMin>
-			<temperatureRangeMax>45</temperatureRangeMax>
-			<onlyCoastal>true</onlyCoastal>
-			<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
-        </li>
-	</modExtensions>
-	<!-- Values halved -->
-	<maxPawnCostPerTotalPointsCurve Inherit="false">
+    <leaderTitle>Governor</leaderTitle>
+    <structureMemeWeights>
+      <ESCP_Structure_OriginDivinesNine MayRequire="Ludeon.RimWorld.Ideology">999</ESCP_Structure_OriginDivinesNine>
+    </structureMemeWeights>
+    <description>A collection of Imperial colonies. While more rough around the edges than their more cosmopolitan counterparts, Imperial colonies are the eyes and ears of the Empire throughout the land, but exist more prominently on the edges of it's influence. Smaller than cities, and less guarded, colonies can still offer a surprising variety of items for trade, but some are less open to outsiders than others. This particular colony pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples.</description>
+    <modExtensions>
+      <li Class="ESCP_RaceTools.SettlementPreference">
+        <chance>1.0</chance>
+        <useTemperatureRange>true</useTemperatureRange>
+        <temperatureRangeMin>-15</temperatureRangeMin>
+        <temperatureRangeMax>45</temperatureRangeMax>
+        <onlyCoastal>true</onlyCoastal>
+        <IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
+      </li>
+    </modExtensions>
+	  <!-- Values halved -->
+	  <maxPawnCostPerTotalPointsCurve Inherit="false">
       <points>
         <li>(0,35)</li>
         <li>(45, 50)</li>
@@ -257,11 +244,10 @@
         <li>(50000, 10000)</li>
       </points>
     </maxPawnCostPerTotalPointsCurve>
-	<colorSpectrum>
-      <li>(0.8, 0.4, 0.3)</li>
-      <li>(0.8, 0.5, 0.2)</li>
+	  <colorSpectrum>
+      <li>(0.8, 0.4, 0.4)</li>
     </colorSpectrum>
-	<factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialColony</factionIconPath>
+	  <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialColony</factionIconPath>
     <settlementNameMaker>ESCP_NamerSettlementImperialColonies</settlementNameMaker>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
@@ -274,80 +260,93 @@
     </disallowedMemes>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>40</configurationListOrderPriority>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_Imperial_Navy_Deckhand>15</ESCP_Imperial_Navy_Deckhand>
+          <ESCP_Imperial_Navy_Mariner>10</ESCP_Imperial_Navy_Mariner>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only with Orsimer mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>40</commonality>
+        <options>
+          <ESCP_Imperial_Navy_Deckhand>10</ESCP_Imperial_Navy_Deckhand>
+          <ESCP_Imperial_Navy_Mariner>10</ESCP_Imperial_Navy_Mariner>
+          <ESCP_Imperial_Navy_Boatswain>10</ESCP_Imperial_Navy_Boatswain>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <options>
+          <ESCP_Imperial_Navy_Deckhand>10</ESCP_Imperial_Navy_Deckhand>
+          <ESCP_Imperial_Navy_Mariner>10</ESCP_Imperial_Navy_Mariner>
+          <ESCP_Imperial_Navy_Boatswain>10</ESCP_Imperial_Navy_Boatswain>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+        </options>
+      </li>
+      <li>
+        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+        <options>
+          <ESCP_Imperial_Navy_Deckhand>10</ESCP_Imperial_Navy_Deckhand>
+          <ESCP_Imperial_Navy_Mariner>5</ESCP_Imperial_Navy_Mariner>
+          <ESCP_Imperial_Navy_Boatswain>10</ESCP_Imperial_Navy_Boatswain>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>10</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+          <ESCP_Imperial_Navy_Captain>2</ESCP_Imperial_Navy_Captain>
+          <ESCP_Imperial_Navy_Admiral>1</ESCP_Imperial_Navy_Admiral>
+        </options>
+      </li>
+      </pawnGroupMakers>
   </FactionDef>
   
-  <!-- <FactionDef ParentName="ESCP_ImperialTribeBase">
-    <defName>ESCP_ImperialIIILegion</defName>
-    <label>Imperial III Legion</label>
-	<description>A system of Imperial military fortifications. The Imperial Legion is a formidable force in battle, and this network of outposts serves to secure the Empire's influence in an area. Legion outposts offer little in the way of trade and diplomacy but are extremely heavily guarded, and able to assist their allies at a moment's notice.</description>
-	<modExtensions>
-		<li Class="ESCP_RaceTools.SettlementPreference">
-			<chance>0.9</chance>
-			<onlyRoad>true</onlyRoad>
-			<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
-        </li>
-	</modExtensions>
-
-	<maxPawnCostPerTotalPointsCurve Inherit="false">
-      <points>
-        <li>(0,35)</li>
-        <li>(140, 50)</li>
-        <li>(1600, 100)</li>
-        <li>(2600, 150)</li>
-        <li>(150000, 10000)</li>
-      </points>
-    </maxPawnCostPerTotalPointsCurve>
-	<colorSpectrum>
-      <li>(0.8, 0.4, 0.3)</li>
-      <li>(0.8, 0.5, 0.2)</li>
-    </colorSpectrum>
-	<factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialLegion</factionIconPath>
-	<factionNameMaker>ESCP_NamerFactionImperialLegion</factionNameMaker>
-    <settlementNameMaker>ESCP_NamerSettlementImperialLegion</settlementNameMaker>
-	<caravanTraderKinds Inherit="false"/>
-	<visitorTraderKinds Inherit="false"/>
-    <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
-    </disallowedMemes>
-    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
-    <configurationListOrderPriority>40</configurationListOrderPriority>
-  </FactionDef> -->
+  <!-- Imperial Legion -->
 
   <FactionDef ParentName="ESCP_ImperialTribeBase">
     <defName>ESCP_ImperialLegion</defName>
     <label>Imperial Legion</label>
-    <fixedName>Imperial IV Legion</fixedName>
-	<description>A system of Imperial military fortifications. The Imperial Legion is a formidable force in battle, and this network of outposts serves to secure the Empire's influence in an area. Legion outposts offer little in the way of trade and diplomacy but are extremely heavily guarded, and able to assist their allies at a moment's notice.</description>
-	<modExtensions>
-		<li Class="ESCP_RaceTools.SettlementPreference">
-			<chance>0.9</chance>
-			<onlyRoad>true</onlyRoad>
-			<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
-        </li>
-	</modExtensions>
-	<!-- Values doubled -->
-	<maxPawnCostPerTotalPointsCurve Inherit="false">
-      <points>
-        <li>(0,35)</li>
-        <li>(140, 50)</li>
-        <li>(1600, 100)</li>
-        <li>(2600, 150)</li>
-        <li>(150000, 10000)</li>
-      </points>
+    <fixedName>Imperial Legion</fixedName>
+    <leaderTitle>General</leaderTitle>
+    <structureMemeWeights>
+      <ESCP_Structure_OriginDivinesNine MayRequire="Ludeon.RimWorld.Ideology">999</ESCP_Structure_OriginDivinesNine>
+    </structureMemeWeights>
+	  <description>A system of Imperial military fortifications. The Imperial Legion is a formidable force in battle, and this network of outposts serves to secure the Empire's influence in an area. Legion outposts offer little in the way of trade and diplomacy but are extremely heavily guarded, and able to assist their allies at a moment's notice.</description>
+    <modExtensions>
+      <li Class="ESCP_RaceTools.SettlementPreference">
+        <chance>0.9</chance>
+        <onlyRoad>true</onlyRoad>
+        <IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
+      </li>
+    </modExtensions>
+    <!-- Values doubled -->
+    <maxPawnCostPerTotalPointsCurve Inherit="false">
+        <points>
+          <li>(0,35)</li>
+          <li>(140, 50)</li>
+          <li>(1600, 100)</li>
+          <li>(2600, 150)</li>
+          <li>(150000, 10000)</li>
+        </points>
     </maxPawnCostPerTotalPointsCurve>
-	<colorSpectrum>
-      <li>(0.8, 0.4, 0.3)</li>
-      <li>(0.8, 0.5, 0.2)</li>
+    <colorSpectrum>
+      <li>(0.8, 0, 0)</li>
     </colorSpectrum>
-	<factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialLegion</factionIconPath>
-  <settlementNameMaker>ESCP_NamerSettlementImperialLegion</settlementNameMaker>
-	<caravanTraderKinds Inherit="false"/>
-	<visitorTraderKinds Inherit="false"/>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialLegion</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/Expanding/ESCP_ImperialLegionFort</settlementTexturePath>
+    <settlementNameMaker>ESCP_NamerSettlementImperialLegion</settlementNameMaker>
+    <caravanTraderKinds Inherit="false"/>
+    <visitorTraderKinds Inherit="false"/>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
@@ -355,66 +354,191 @@
     </disallowedMemes>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>40</configurationListOrderPriority>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <ESCP_Imperial_IV_Legion_Light_Legionary>5</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Dunmer_IV_Legion_Light_Studded_Legionary MayRequire="SirMashedPotato.ESCP.Dunmer">10</ESCP_Dunmer_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+          <ESCP_Imperial_IV_Legion_Legate>2</ESCP_Imperial_IV_Legion_Legate>
+          <ESCP_Imperial_IV_Legion_General>1</ESCP_Imperial_IV_Legion_General>
+	      </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_Imperial_PenitusOculatis>35</ESCP_Imperial_PenitusOculatis>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_Imperial_IV_Legion_Light_Legionary>15</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only with Orsimer mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>40</commonality>
+        <options>
+          <ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer MayRequire="SirMashedPotato.ESCP.Orsimer">10</ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer>
+          <ESCP_Dunmer_IV_Legion_Light_Studded_Legionary MayRequire="SirMashedPotato.ESCP.Dunmer">10</ESCP_Dunmer_IV_Legion_Light_Studded_Legionary>          
+          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <options>
+          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+        </options>
+      </li>
+      <li>
+        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+        <options>
+          <ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer MayRequire="SirMashedPotato.ESCP.Orsimer">5</ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer>
+          <ESCP_Dunmer_IV_Legion_Light_Studded_Legionary MayRequire="SirMashedPotato.ESCP.Dunmer">5</ESCP_Dunmer_IV_Legion_Light_Studded_Legionary>          
+          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>5</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>10</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+          <ESCP_Imperial_IV_Legion_Legate>2</ESCP_Imperial_IV_Legion_Legate>
+          <ESCP_Imperial_IV_Legion_General>1</ESCP_Imperial_IV_Legion_General>
+        </options>
+      </li>
+      </pawnGroupMakers>
   </FactionDef>
+
+  <!-- Colovian Estates -->
 
   <FactionDef ParentName="ESCP_ImperialTribeBase">
     <defName>ESCP_ImperialTribeRough</defName>
     <label>Colovian Estates</label>
     <fixedName>Colovian Estates</fixedName>
+    <leaderTitle>King</leaderTitle>
+    <structureMemeWeights>
+      <ESCP_Structure_OriginDivinesNine MayRequire="Ludeon.RimWorld.Ideology">999</ESCP_Structure_OriginDivinesNine>
+    </structureMemeWeights>
 	  <description>A collection of Colovian Estates, a common sight in western Cyrodiil. These opulent settlements are home to a vast array of merchants and traders, who are always open for business. Hubs of cultural exchange, these Imperials are quick to welcome alliances with outsiders. But beware to any would-be attackers, while the cities are friendly, they are also extremely well guarded by the formidable Imperial Watch.</description>	
     <settlementNameMaker>ESCP_NamerSettlementColovian</settlementNameMaker>
-  <modExtensions>
-		<li Class="ESCP_RaceTools.SettlementPreference">
-			<chance>0.6</chance>
-			<useTemperatureRange>true</useTemperatureRange>
-			<temperatureRangeMin>-10</temperatureRangeMin>
-			<temperatureRangeMax>45</temperatureRangeMax>
-			<useSwampinessRange>true</useSwampinessRange>
-			<swampinessRangeMin>0.0</swampinessRangeMin>
-			<swampinessRangeMax>0.8</swampinessRangeMax>
-			<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
+    <modExtensions>
+      <li Class="ESCP_RaceTools.SettlementPreference">
+        <chance>0.6</chance>
+        <useTemperatureRange>true</useTemperatureRange>
+        <temperatureRangeMin>-10</temperatureRangeMin>
+        <temperatureRangeMax>45</temperatureRangeMax>
+        <useSwampinessRange>true</useSwampinessRange>
+        <swampinessRangeMin>0.0</swampinessRangeMin>
+        <swampinessRangeMax>0.8</swampinessRangeMax>
+        <IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
         </li>
-	</modExtensions>
-	<colorSpectrum>
-      <li>(0.6, 0.2, 0.2)</li>
-      <li>(0.7, 0.3, 0.3)</li>
+    </modExtensions>
+	  <colorSpectrum>
+      <li>(0.8, 0.1, 0.2)</li>
     </colorSpectrum>
-    <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlementAlt</factionIconPath>
-    <naturalEnemy>true</naturalEnemy>
-	<requiredMemes>
-    <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-	</requiredMemes>
+    <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialLegionAlt</factionIconPath>
+    <settlementTexturePath>World/WorldObjects/Expanding/ESCP_ImperialColovianCity</settlementTexturePath>
+    <naturalEnemy>false</naturalEnemy>
+    <requiredMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+    </requiredMemes>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
     </disallowedMemes>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>50</configurationListOrderPriority>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <ESCP_Imperial_Watch_Horseman>10</ESCP_Imperial_Watch_Horseman>
+          <ESCP_Imperial_Watch>25</ESCP_Imperial_Watch>
+          <ESCP_Imperial_Watch_Palace_Guard>5</ESCP_Imperial_Watch_Palace_Guard>
+          <ESCP_Imperial_Watch_Captain>1</ESCP_Imperial_Watch_Captain>
+	      </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_Imperial_Watch_Horseman>25</ESCP_Imperial_Watch_Horseman>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <options>
+          <ESCP_Imperial_Watch>20</ESCP_Imperial_Watch>
+          <ESCP_Imperial_Watch_Horseman>10</ESCP_Imperial_Watch_Horseman>
+          <ESCP_Imperial_Watch_Palace_Guard>5</ESCP_Imperial_Watch_Palace_Guard>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, Blades only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <options>
+          <ESCP_Imperial_Blades_Bodyguard>10</ESCP_Imperial_Blades_Bodyguard>
+          <ESCP_Imperial_Blades_Warrior>25</ESCP_Imperial_Blades_Warrior>
+          <ESCP_Imperial_Blades_Agent>5</ESCP_Imperial_Blades_Agent>
+        </options>
+      </li>
+      </pawnGroupMakers>
   </FactionDef>
+
+  <!-- Imperial Deserters -->
 
   <FactionDef ParentName="ESCP_ImperialTribeBase">
     <defName>ESCP_ImperialTribeSavage</defName>
     <label>Imperial Deserters</label>
     <fixedName>Imperial Deserters</fixedName>
-	<description>A loose coalition of those who have deserted from the Imperial Legion, these former soldiers have become little more than bandits, accosting travelers and settlements to sustain themselves. Some still carry their old Legion gear and use that to trick unsuspecting victims that they can be of aid while others lie in wait. While no longer part of the ordered and disciplined Legion, these people still posess fearsome skills in battle, and should be treated with caution.</description>
-	<modExtensions>
-		<li Class="ESCP_RaceTools.SettlementPreference">
-			<chance>0.6</chance>
-			<useTemperatureRange>true</useTemperatureRange>
-			<temperatureRangeMin>-10</temperatureRangeMin>
-			<temperatureRangeMax>45</temperatureRangeMax>
-			<useSwampinessRange>true</useSwampinessRange>
-			<swampinessRangeMin>0.0</swampinessRangeMin>
-			<swampinessRangeMax>0.8</swampinessRangeMax>
-			<IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
-        </li>
-	</modExtensions>
-	<colorSpectrum>
-      <li>(0.85, 0, 0)</li>
-      <li>(0.85, 0.7, 0.7)</li>
+    <leaderTitle>Captain</leaderTitle>
+    <structureMemeWeights>
+      <ESCP_Structure_OriginDivinesNine MayRequire="Ludeon.RimWorld.Ideology">999</ESCP_Structure_OriginDivinesNine>
+    </structureMemeWeights>
+	  <description>A loose coalition of those who have deserted from the Imperial Legion, these former soldiers have become little more than bandits, accosting travelers and settlements to sustain themselves. Some still carry their old Legion gear and use that to trick unsuspecting victims that they can be of aid while others lie in wait. While no longer part of the ordered and disciplined Legion, these people still posess fearsome skills in battle, and should be treated with caution.</description>
+    <modExtensions>
+      <li Class="ESCP_RaceTools.SettlementPreference">
+        <chance>0.6</chance>
+        <useTemperatureRange>true</useTemperatureRange>
+        <temperatureRangeMin>-10</temperatureRangeMin>
+        <temperatureRangeMax>45</temperatureRangeMax>
+        <useSwampinessRange>true</useSwampinessRange>
+        <swampinessRangeMin>0.0</swampinessRangeMin>
+        <swampinessRangeMax>0.8</swampinessRangeMax>
+        <IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
+      </li>
+    </modExtensions>
+	  <colorSpectrum>
+      <li>(1, 0, 0)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialRaider</factionIconPath>
     <permanentEnemy>true</permanentEnemy>
@@ -429,6 +553,184 @@
     </disallowedMemes>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>60</configurationListOrderPriority>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <ESCP_Imperial_IV_Legion_Light_Legionary>5</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+	      </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_Imperial_PenitusOculatis>35</ESCP_Imperial_PenitusOculatis>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <ESCP_Dunmer_IV_Legion_Light_Studded_Legionary MayRequire="SirMashedPotato.ESCP.Dunmer">5</ESCP_Dunmer_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Legionary>15</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only with Orsimer mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>40</commonality>
+        <options>
+          <ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer MayRequire="SirMashedPotato.ESCP.Orsimer">10</ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer>
+          <ESCP_Dunmer_IV_Legion_Light_Studded_Legionary MayRequire="SirMashedPotato.ESCP.Dunmer">5</ESCP_Dunmer_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <options>
+          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+        </options>
+      </li>
+      <li>
+        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>5</commonality>
+        <options>
+          <ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer MayRequire="SirMashedPotato.ESCP.Orsimer">5</ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer>
+          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
+          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>5</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
+          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
+          <ESCP_Imperial_IV_Legion_Heavy_Legionary>10</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+        </options>
+      </li>
+      </pawnGroupMakers>
+  </FactionDef>
+
+  <!--_____ Rim-Men _____-->
+
+  <!-- Imperial Rim-Men Colony -->
+
+  <FactionDef ParentName="ESCP_ImperialTribeBase">
+    <defName>ESCP_RimMenTonenaka</defName>
+    <label>Rimmen</label>
+    <fixedName>Tonenaka</fixedName>
+    <leaderTitle>Potentate</leaderTitle>
+    <description>The Rim-Men are a sub race of Imperial and Tsaesci, an Akaviri race of vampiric snake people. They were forced out of Cyrodiil when the last Poentate Emperor died and their was widespread hate of the Akaviri. They fled south to Elswyr and the rim border of the Empire, giving them the name Rim-Men.</description>
+    <settlementGenerationWeight>0.001</settlementGenerationWeight>
+    <modExtensions>
+      <li Class="ESCP_RaceTools.SettlementPreference">
+        <chance>1.0</chance>
+        <useTemperatureRange>true</useTemperatureRange>
+        <temperatureRangeMin>-15</temperatureRangeMin>
+        <temperatureRangeMax>45</temperatureRangeMax>
+        <IgnoreBiomeSelectionWeight>false</IgnoreBiomeSelectionWeight>
+      </li>
+    </modExtensions>
+	  <!-- Values halved -->
+	  <maxPawnCostPerTotalPointsCurve Inherit="false">
+      <points>
+        <li>(0,35)</li>
+        <li>(45, 50)</li>
+        <li>(400, 100)</li>
+        <li>(650, 150)</li>
+        <li>(50000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+	  <colorSpectrum>
+      <li>(0.8, 0, 0.5)</li>
+    </colorSpectrum>
+	  <factionIconPath>World/WorldObjects/Expanding/ESCP_RimMenShrine</factionIconPath>
+    <settlementNameMaker>ESCP_NamerSettlementRimMen</settlementNameMaker>
+    <disallowedMemes>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+    </disallowedMemes>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>40</configurationListOrderPriority>
+		<backstoryFilters>
+		  <li>
+			<categories>
+			  <li>ESCP_ImperialRimmen_Backstory</li>
+			</categories>
+			<commonality>1</commonality>
+		  </li>
+		</backstoryFilters>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <ESCP_ImperialRimMen_Citizen>5</ESCP_ImperialRimMen_Citizen>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <ESCP_ImperialRimMen_Citizen>1</ESCP_ImperialRimMen_Citizen>
+        </traders>
+        <carriers>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
+        </carriers>
+        <guards>
+          <ESCP_ImperialRimMen_Citizen>7</ESCP_ImperialRimMen_Citizen>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <ESCP_ImperialRimMen_Citizen>7</ESCP_ImperialRimMen_Citizen>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement_RangedOnly</kindDef>
+        <options>
+          <ESCP_ImperialRimMen_Citizen>10</ESCP_ImperialRimMen_Citizen>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <ESCP_ImperialRimMen_Citizen>1</ESCP_ImperialRimMen_Citizen>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <ESCP_ImperialRimMen_Citizen>1</ESCP_ImperialRimMen_Citizen>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <ESCP_ImperialRimMen_Citizen>1</ESCP_ImperialRimMen_Citizen>
+        </options>
+      </li>
+    </pawnGroupMakers>
   </FactionDef>
 
 </Defs>

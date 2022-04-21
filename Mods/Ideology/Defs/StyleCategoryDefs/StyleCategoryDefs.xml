@@ -2,7 +2,7 @@
 <Defs>
 
   <StyleCategoryDef>
-    <defName>ESCP_ImperialColovianStyle</defName>
+    <defName>ESCP_ColovianStyle</defName>
     <label>Colovian</label>
     <iconPath>World/WorldObjects/Expanding/ESCP_ImperialRaider</iconPath>
 	<!--
@@ -10,12 +10,15 @@
     <ritualVisualEffectDef>Hindu</ritualVisualEffectDef>
 	-->
     <thingDefStyles>
-
+		  <li>
+        <thingDef>SculptureSmall</thingDef>
+        <styleDef>ESCP_ColovianSculptureSmall</styleDef>
+		  </li>
     </thingDefStyles>
   </StyleCategoryDef>
 
   <StyleCategoryDef>
-    <defName>ESCP_ImperialNibeneseStyle</defName>
+    <defName>ESCP_NibeneseStyle</defName>
     <label>Nibenese</label>
     <iconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlement</iconPath>
 	<!--
@@ -23,7 +26,26 @@
     <ritualVisualEffectDef>Hindu</ritualVisualEffectDef>
 	-->
     <thingDefStyles>
+		  <li>
+        <thingDef>SculptureSmall</thingDef>
+        <styleDef>ESCP_NibeneseSculptureSmall</styleDef>
+		  </li>
+    </thingDefStyles>
+  </StyleCategoryDef>
 
+  <StyleCategoryDef>
+    <defName>ESCP_HeartlanderStyle</defName>
+    <label>Heartlander</label>
+    <iconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlement</iconPath>
+	<!--
+    <soundOngoingRitual>RitualSustainer_Hindu</soundOngoingRitual>
+    <ritualVisualEffectDef>Hindu</ritualVisualEffectDef>
+	-->
+    <thingDefStyles>
+		  <li>
+        <thingDef>SculptureSmall</thingDef>
+        <styleDef>ESCP_HeartlanderSculptureSmall</styleDef>
+		  </li>
     </thingDefStyles>
   </StyleCategoryDef>
 

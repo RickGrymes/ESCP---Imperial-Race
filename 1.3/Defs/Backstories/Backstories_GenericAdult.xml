@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- Generic -->
+	<!--__________ Generic Adult __________-->
+
+	<!-- Imperial Slaver -->
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_SlaverBackstory</defName>
@@ -20,10 +22,10 @@
 			</li>
 		</skillGains>
 		<forcedTraits>
-			<!-- <li>
+			<li>
 				<defName>ESCP_Slaver</defName>
 				<chance>100</chance>
-			</li> -->
+			</li>
 			<li>
 			    <defName>ESCP_Imperial_Nibenese</defName>
 				<chance>100</chance>
@@ -36,6 +38,8 @@
 			<li>Caring</li>
 		</workDisables>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Horse Rancher -->
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_HorseBackstoryAlt</defName>
@@ -70,6 +74,8 @@
 		</workDisables>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Horse Trainer -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_HorseBackstory</defName>
 		<title>Horse trainer</title>
@@ -101,6 +107,8 @@
 		<forcedItems>
 		</forcedItems>
 	</AlienRace.BackstoryDef>
+	
+	<!-- Imperial Glass Merchant -->
 	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_GlassBackstory</defName>
@@ -144,6 +152,8 @@
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Ebony Merchant -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_EbonyBackstory</defName>
 		<title>volcanic ebony merchant</title>
@@ -205,6 +215,8 @@
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Markerd By The Brotherhood -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_DarkBrotherhoodMarkedBackstory</defName>
 		<title>marked by the Dark Brotherhood</title>
@@ -261,6 +273,8 @@
 		</forcedTraits>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Armorer -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_ArmorerBackstory</defName>
 		<title>Imperial Armorer</title>
@@ -307,6 +321,8 @@
 		</forcedItems>
 	</AlienRace.BackstoryDef>	
 	
+	<!-- Imperial Rat Slayer -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Impeiral_RatSlayerBackstory</defName>
 		<title>Rat slayer</title>
@@ -341,11 +357,13 @@
 		</forcedItems>
 	</AlienRace.BackstoryDef>
 
+	<!-- Imperial Ayleid Structure Maintainer -->
+
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_Imerial_AyliedStructureBackstory</defName>
-		<title>Aylied structrue maintainer</title>
+		<defName>ESCP_Imerial_AyleidStructureBackstory</defName>
+		<title>Ayleid structrue maintainer</title>
 		<titleShort>maintainer</titleShort>
-		<baseDescription>[PAWN_nameDef] spent most of their adult life fixing and maintaing the long standing Aylied structrues around Cyrodiil, a difficult, and often forgotten job.</baseDescription>
+		<baseDescription>[PAWN_nameDef] spent most of their adult life fixing and maintaing the long standing Ayleid structrues around Cyrodiil, a difficult, and often forgotten job.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -380,6 +398,8 @@
 		</forcedItems>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Blacksmith -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_BlacksmithBackstory</defName>
 		<title>Blacksmith</title>
@@ -421,6 +441,8 @@
 		</forcedItems>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Slaughterfish Fisherman -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_SlaughterfishBackstory</defName>
 		<title>Slaughterfish fisherman</title>
@@ -467,6 +489,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Rice Farmer -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_RiceBackstory</defName>
 		<title>Rice farmer</title>
@@ -500,6 +524,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Mushroom Forager -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_RareMushroomForagerBackstory</defName>
 		<title>Rare mushroom forager</title>
@@ -543,6 +569,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Wheat Farmer -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_WheatBackstory</defName>
 		<title>Wheat farmer</title>
@@ -582,6 +610,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 
+	<!-- Imperial Textile Maker -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_TextileBackstory</defName>
 		<title>Textile maker</title>
@@ -616,6 +646,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Pig Rancher -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_PigBackstory</defName>
 		<title>Pig rancher</title>
@@ -654,6 +686,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Dog Trainer -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_BravilRetrieverBackstory</defName>
 		<title>Bravil retriever trainer</title>
@@ -691,6 +725,8 @@
 		<forcedHediffs>
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Book Store Owner -->
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_BookstoreBackstory</defName>
@@ -739,6 +775,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Bard -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_bardBackstory</defName>
 		<title>wandering bard</title>
@@ -772,6 +810,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Furniture Maker -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_FurnitureMakerBackstory</defName>
 		<title>Furniture crafter</title>
@@ -810,6 +850,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Arena Fighter -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_ArenaFighterBackstory</defName>
 		<title>Arena fighter</title>
@@ -854,6 +896,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Alchemist -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_AlchemistBackstory</defName>
 		<title>Alchemist</title>
@@ -894,6 +938,8 @@
 		<forcedHediffs>
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Florist -->
 
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_FloristBackstory</defName>
@@ -941,6 +987,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Brandy Maker -->
+	
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_DistillerBackstory</defName>
 		<title>Distiller</title>
@@ -982,6 +1030,8 @@
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	
+	<!-- Imperial Mercenary -->
+
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_MercanaryBackstory</defName>
 		<title>Mercenary</title>
@@ -1014,6 +1064,265 @@
 		</workDisables>
 		<forcedItems>
 			<Silver>25~35</Silver>
+		</forcedItems>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Unicorn Tamer -->
+	
+	<AlienRace.BackstoryDef>
+		<defName MayRequire="Rick.ESCPMinotaurRace">ESCP_Imperial_UnicornTamerBackstory</defName>
+		<title>Unicorn tamer</title>
+		<titleShort>Unicorn tamer</titleShort>
+		<baseDescription>[PAWN_nameDef] has always had a fascination with the mistic stories of Alessias time, where minotaurs were beloved servants of the Empire and unicorns roamed. [PAWN_possessive]s main goal in life is to help the endangered species and even tame one as a mount.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Hunting</li>
+		</workDisables>
+		<forcedItems>
+			<Silver>25~35</Silver>
+		</forcedItems>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Unicorn Hunter -->
+	
+	<AlienRace.BackstoryDef>
+		<defName MayRequire="Rick.ESCPMinotaurRace">ESCP_Imperial_UnicornHunterBackstory</defName>
+		<title>Unicorn hunter</title>
+		<titleShort>Unicorn hunter</titleShort>
+		<baseDescription>[PAWN_nameDef] is a hunter by trade and a renowned trophy collector. When [PAWN_NameDef] was out hunting they had a vision of Hircine intstructuing them to hunt a very particular creature, the rare and mythical unicorn.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Animals</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>15</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<forcedItems>
+			<Silver>25~35</Silver>
+		</forcedItems>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Erotic Novelist -->
+	
+	<AlienRace.BackstoryDef>
+		<defName MayRequire="Rick.ESCPMinotaurRace">ESCP_Imperial_EroticNovelistBackstory</defName>
+		<title>Erotic novelist</title>
+		<titleShort>Erotic novelist</titleShort>
+		<baseDescription>[PAWN_nameDef] has made a small fortune in writing, the books follow charecters and their extorts. The books also follow a more... erotic side, with multiple tendencies for erotic personification as well as a copius amounts of xenophilia.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Social</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>18</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Shooting</li>
+		</workDisables>
+		<forcedItems>
+			<Silver>50~65</Silver>
+		</forcedItems>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+
+	<!--_____ Rimmen Backstories _____-->
+
+	<!-- Imperial Rimmen Mercenary -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_ImperialRimmen_MercanaryBackstory</defName>
+		<title>Mercenary</title>
+		<titleShort>Mercenary</titleShort>
+		<baseDescription>[PAWN_nameDef] is a mercenary, if you have the septims, [PAWN_nameDef] is always available to hire, due to their Tscaesci ansestory they are well worth it.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialRimMenBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>6</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_RimMen</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Rimmen Farmer -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_ImperialRimmen_WheatBackstory</defName>
+		<title>farmer</title>
+		<titleShort>farmer</titleShort>
+		<baseDescription>[PAWN_nameDef] spent [PAWN_possessive] early adulthood working in a farm near Rimmen. Many long days were spent under the blazing sun, sowing, harvesting, and cleaning produce. [PAWN_nameDef] has had a rough time dealing with neighboring farmers, its time they packed up and started a farm elsewhere.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialRimMenBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Plants</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Social</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_RimMen</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Animals</li>
+		</workDisables>
+		<forcedItems>
+		</forcedItems>
+		<forcedHediffs>
+		</forcedHediffs>
+	</AlienRace.BackstoryDef>
+
+	<!-- Imperial Rimmen Rancher -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_ImperialRimmen_Backstory</defName>
+		<title>Pig rancher</title>
+		<titleShort>Pig rancher</titleShort>
+		<baseDescription>[PAWN_nameDef] used to work on a ranch near Rimmen. Many hours each day were spent feeding the animals, whom are slow and heavy and often trampled anything that fell underfoot.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialRimmen_Backstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Animals</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_RimMen</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<forcedItems>
+			<Silver>5~15</Silver>
 		</forcedItems>
 		<forcedHediffs>
 		</forcedHediffs>

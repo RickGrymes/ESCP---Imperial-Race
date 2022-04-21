@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- Imperial -->
 
   <CultureDef>
     <defName>ESCP_Imperial</defName>
@@ -74,4 +75,78 @@
     </styleItemTags>
   </CultureDef>
   
+  <!-- Rim-Men -->
+
+  <CultureDef>
+    <defName>ESCP_ImperialTsaesci</defName>
+    <label>Imperial</label>
+    <description>An ancient culture common among Imperial Tsaesci or Rim-Men.</description>
+    <pawnNameMaker>NamerPersonCorunan</pawnNameMaker>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_NamerDeity_ImperialTsaesci</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_LeaderTitleMaker_ImperialTsaesci</leaderTitleMaker>
+    <allowedPlaceTags>
+      <li>OriginTribal</li>
+    </allowedPlaceTags>
+    <iconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlement</iconPath>
+    <preferredWeaponClasses>
+      <noble>MeleePiercer</noble>
+      <despised>MeleeBlunt</despised>
+    </preferredWeaponClasses>
+    <thingStyleCategories>
+      <!-- <li MayRequire="Ludeon.RimWorld.Ideology">
+        <category>ESCP_ImperialStyle</category>
+        <priority>2</priority>
+      </li> -->
+	  <li MayRequire="Ludeon.RimWorld.Ideology">
+        <category>Rustic</category>
+        <priority>1</priority>
+      </li>
+    </thingStyleCategories>
+    <styleItemTags>
+	  <li>
+        <tag>ESCP_TattooFaceImperial</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+	  <li>
+        <tag>Medieval</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+	  <li>
+        <tag>Rural</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>10</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>BeardTribal</tag>
+        <baseWeight>0.3</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>TattooFaceTribal</tag>
+        <baseWeight>0.4</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>TattooBodyTribal</tag>
+        <baseWeight>0.4</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoTattoo</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>0.2</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
 </Defs>

@@ -1,11 +1,98 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--__________ Imperial Dark Brotherhood __________-->
+
+	<!-- Cheydinhal Sanctuary Survivor -->
+
 	<AlienRace.BackstoryDef>
-		<defName>ESCP_Imperial_DarkBrotherhoodBackstory</defName>
+		<defName>ESCP_Imperial_DarkBrotherhoodSurvivorMaleBackstory</defName>
 		<title>Dark Brother</title>
 		<titleShort>Dark Brother</titleShort>
 		<baseDescription>[PAWN_nameDef] was once a member of the Dark Brotherhood, and is one of the few surviving members of the Cheydinhal sanctuary. [PAWN_nameDef] remembers that horrific day well, seeing [PAWN_possessive] fellow Dark Brothers fall one after the other, all because some novice failed to deal with an important target.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_DarkBrotherhoodSurvivorMaleBackstoryAlt</defName>
+		<title>Dark Brother</title>
+		<titleShort>Dark Brother</titleShort>
+		<baseDescription>[PAWN_nameDef] was once a member of the Dark Brotherhood, and is one of the few surviving members of the Cheydinhal sanctuary. [PAWN_nameDef] remembers that horrific day well, seeing [PAWN_possessive] fellow Dark Brothers fall one after the other, all because some novice failed to deal with an important target.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>1</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>25</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>15</maleCommonality>
+		<femaleCommonality>15</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<!-- Listener -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_DarkBrotherhoodListenerBackstory</defName>
+		<title>Listener</title>
+		<titleShort>Listener</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the Dark Brotherhood, and holds the rank of listener. [PAWN_nameDef] can hear the call of the nightmother speaking to them, [PAWN_possessive] voice utters the words and commands that the nightmother demands of those who perform the black sacrament. Thelistener then gives these names to the speaker so that the tasks may be carried out.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -23,14 +110,14 @@
 			</li>
 			<li>
 				<defName>Intellectual</defName>
-				<amount>2</amount>
+				<amount>4</amount>
 			</li>
 		</skillGains>
 		<forcedTraits>
 			<li>
 				<defName>SpeedOffset</defName>
 				<degree>2</degree>
-				<chance>25</chance>
+				<chance>30</chance>
 			</li>
 		</forcedTraits>
 		<disallowedTraits>
@@ -38,8 +125,131 @@
 		<workDisables>
 			<li>Caring</li>
 		</workDisables>
-		<maleCommonality>15</maleCommonality>
-		<femaleCommonality>15</femaleCommonality>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_DarkBrotherhoodListenerBackstoryAlt</defName>
+		<title>Listener</title>
+		<titleShort>Listener</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the Dark Brotherhood, and holds the rank of listener. [PAWN_nameDef] can hear the call of the nightmother speaking to them, [PAWN_possessive] voice utters the words and commands that the nightmother demands of those who perform the black sacrament. Thelistener then gives these names to the speaker so that the tasks may be carried out.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>5</maleCommonality>
+		<femaleCommonality>5</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<!-- Speaker -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_DarkBrotherhoodSpeakerBackstory</defName>
+		<title>Speaker</title>
+		<titleShort>Speaker</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the Dark Brotherhood, and holds the rank of speaker. [PAWN_nameDef] job is to gather information and tasks from the listener, and to deal with them justly.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_DarkBrotherhoodSpeakerBackstoryAlt</defName>
+		<title>Speaker</title>
+		<titleShort>Speaker</titleShort>
+		<baseDescription>[PAWN_nameDef] is a member of the Dark Brotherhood, and holds the rank of speaker. [PAWN_nameDef] job is to gather information and tasks from the listener, and to deal with them justly.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+			<li>Caring</li>
+		</workDisables>
+		<maleCommonality>10</maleCommonality>
+		<femaleCommonality>10</femaleCommonality>
 	</AlienRace.BackstoryDef>
 
 </Defs>

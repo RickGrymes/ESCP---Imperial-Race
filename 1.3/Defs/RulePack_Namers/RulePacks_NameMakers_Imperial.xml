@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!-- Imperials -->
+
 	<RulePackDef>
 		<defName>ESCP_NamerPersonImperialMale</defName>
 		<include>
@@ -71,4 +73,27 @@
 		</rulePack>
 	</RulePackDef>
 	
+	<!-- Rim-Men -->
+
+	<RulePackDef>
+        <defName>ESCP_NamerPersonImperialTsaesci</defName>
+        <include>
+          <li>TribalWordUtility</li>
+        </include>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[a]-[b] [a]-[b]</li>
+                <li>name->[a] [b]-[a][b]</li>
+                <li>name->[b][b] [a][b]-[a][b]</li>
+                <li>name->[a]-[a][b] [b]</li>
+                <li>name->[a][b]-[a] [a][b]</li>
+                <li>name->[a]-[a] [b]-[b]</li>
+            </rulesStrings>
+            <rulesFiles>
+                <li>a->ESCP_ImperialNames/ImperialTsaesci_A</li>
+                <li>b->ESCP_ImperialNames/ImperialTsaesci_B</li>
+            </rulesFiles>
+        </rulePack>
+    </RulePackDef>
+
 </Defs>

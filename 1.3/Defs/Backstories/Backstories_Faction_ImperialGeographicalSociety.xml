@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Imperial Geographical Society __________-->
+
+	<!-- Writer -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialGeographicalSocietyWriterBackstory</defName>
+		<title>Imperial Geographical Society Writer</title>
+		<titleShort>I.G.S. Writer</titleShort>
+		<baseDescription>[PAWN_nameDef] is a writer for the Imperial Geographical Society. This typically involves writing guides to differing areas within the Empire as well as different points of view for traveling there be it as a noble or commoner.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>45</maleCommonality>
+		<femaleCommonality>45</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialGeographicalSocietyWriterBackstoryAlt</defName>
+		<title>Imperial Geographical Society Writer</title>
+		<titleShort>I.G.S. Writer</titleShort>
+		<baseDescription>[PAWN_nameDef] is a writer for the Imperial Geographical Society. This typically involves writing guides to differing areas within the Empire as well as different points of view for traveling there be it as a noble or commoner.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>5</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>45</maleCommonality>
+		<femaleCommonality>45</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Map Maker -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialGeographicalSocietyMapMakerBackstory</defName>
+		<title>Imperial Geographical Society Map Maker</title>
+		<titleShort>I.G.S. map maker</titleShort>
+		<baseDescription>Being a natural adventurer, [PAWN_nameDef] had found themselves now on the edge of the Empire mapping new coasts and adjusting existing maps.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>40</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialGeographicalSocietyMapMakerBackstoryAlt</defName>
+		<title>Imperial Geographical Society Map Maker</title>
+		<titleShort>I.G.S. map maker</titleShort>
+		<baseDescription>Being a natural adventurer, [PAWN_nameDef] had found themselves now on the edge of the Empire mapping new coasts and adjusting existing maps.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>40</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+	</AlienRace.BackstoryDef>
+	
+	<!-- Publisher -->
+
+	<AlienRace.BackstoryDef>
+		<defName>ESCP_Imperial_ImperialGeographicalSocietyPublisherBackstory</defName>
+		<title>Imperial Geographical Society Publisher</title>
+		<titleShort>I.G.S. publisher</titleShort>
+		<baseDescription>[PAWN_nameDef] is always exploring new lands and revisiting them....well at least in [PAWN_possessive]s head they are. In reality [PAWN_NameDef] is a publisher for the Imperial Geographical Society.</baseDescription>
+		<slot>Adulthood</slot>
+		<bodyTypeMale>Male</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+		  <li>ESCP_ImperialBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Crafting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+			    <defName>ESCP_Imperial_Colovian</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Heartlander</defName>
+				<chance>25</chance>
+			</li>
+			<li>
+			    <defName>ESCP_Imperial_Nibenese</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraits>
+		<disallowedTraits>
+		</disallowedTraits>
+		<workDisables>
+		</workDisables>
+		<maleCommonality>40</maleCommonality>
+		<femaleCommonality>40</femaleCommonality>
+	</AlienRace.BackstoryDef>
+
+</Defs>
