@@ -9,7 +9,7 @@
         <li>r_roleName->commander</li>
         <li>firstPart->dragon</li>
         <li>firstPart->imperial</li>
-        <li>firstPart->honoured</li>
+        <li>firstPart->honored</li>
         <li>firstPart->pious</li>
       </rulesStrings>
     </rulePack>
