@@ -110,7 +110,7 @@
 		<defName>ESCP_Imperial_ImperialLegionQuartermasterBackstory</defName>
 		<title>Imperial Legion quartermaster</title>
 		<titleShort>Legion quatermaster</titleShort>
-		<baseDescription>[PAWN_nameDef] has been in the Imperial Legion for a few years, due to [PAWN_possesse] knowledge of logistics and background of merchantile trade withen Nibenay getting assigned as a quartermaster was logical.</baseDescription>
+		<baseDescription>[PAWN_nameDef] has been in the Imperial Legion for a few years, due to [PAWN_possessive] knowledge of logistics and background of merchantile trade withen Nibenay getting assigned as a quartermaster was logical.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Fat</bodyTypeGlobal>
 		<spawnCategories>
@@ -160,7 +160,7 @@
 		<defName>ESCP_Imperial_ImperialLegionQuartermasterBackstoryAlt</defName>
 		<title>Imperial Legion quartermaster</title>
 		<titleShort>Legion quatermaster</titleShort>
-		<baseDescription>[PAWN_nameDef] has been in the Imperial Legion for a few years, due to [PAWN_possesse] knowledge of logistics and background of merchantile trade withen Nibenay getting assigned as a quartermaster was logical.</baseDescription>
+		<baseDescription>[PAWN_nameDef] has been in the Imperial Legion for a few years, due to [PAWN_possessive] knowledge of logistics and background of merchantile trade withen Nibenay getting assigned as a quartermaster was logical.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -308,7 +308,7 @@
 		<defName>ESCP_Imperial_LegionImperialHeavyLegionaryBackstory</defName>
 		<title>Imperial Legion heavy legionary</title>
 		<titleShort>legion heavy legionary</titleShort>
-		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the Legion. Due to [PAWN_possesse]'s immense streangth they have been assigned as a heavy legionary, equipped with heavy armor and an even heavier sense of glory for the Empire.</baseDescription>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the Legion. Due to [PAWN_possessive]'s immense streangth they have been assigned as a heavy legionary, equipped with heavy armor and an even heavier sense of glory for the Empire.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -351,7 +351,7 @@
 		<defName>ESCP_Imperial_LegionImperialHeavyLegionaryBackstoryAlt</defName>
 		<title>Imperial Legion heavy legionary</title>
 		<titleShort>legion heavy legionary</titleShort>
-		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the Legion. Due to [PAWN_possesse]'s immense streangth they have been assigned as a heavy legionary, equipped with heavy armor and an even heavier sense of glory for the Empire.</baseDescription>
+		<baseDescription>[PAWN_nameDef] enlisted in the Imperial Legion. Looking for honor and glory [PAWN_pronoun] has finished basic training and has been assigned as a legionary of the Legion. Due to [PAWN_possessive]'s immense streangth they have been assigned as a heavy legionary, equipped with heavy armor and an even heavier sense of glory for the Empire.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeGlobal>Hulk</bodyTypeGlobal>
 		<spawnCategories>
