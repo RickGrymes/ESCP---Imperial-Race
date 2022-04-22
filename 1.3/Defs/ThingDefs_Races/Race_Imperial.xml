@@ -763,7 +763,7 @@
 
 	<AlienRace.ThingDef_AlienRace ParentName="ESCP_BasePawnMan">
 		<defName>ESCP_ImperialTsaesciRace</defName>
-		<label>Imperial</label>
+		<label>Rimmen</label>
 		<description>A race made of the interbreeding of the Tsaesci invaders from Akavir and Cyrods or Imperials of Crodiil.</description>
 		
 		<statBases>

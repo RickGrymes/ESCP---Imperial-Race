@@ -17,9 +17,8 @@
 		  </li>
 		<li Class="ESCP_RaceTools.RoleRequirement_RaceMulti">
             <races>
-                <li>ESCPImperialRace</li>
+                <li>ESCP_ImperialRace</li>
                 <li>ESCP_ImperialAkaviriRace</li>
-                <li>ESCP_ImperialTsaesciRace</li>
             </races>
         </li>
 		</roleRequirements>

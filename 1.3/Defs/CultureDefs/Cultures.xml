@@ -79,7 +79,7 @@
 
   <CultureDef>
     <defName>ESCP_ImperialTsaesci</defName>
-    <label>Imperial</label>
+    <label>Rimmen</label>
     <description>An ancient culture common among Imperial Tsaesci or Rim-Men.</description>
     <pawnNameMaker>NamerPersonCorunan</pawnNameMaker>
     <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
@@ -90,7 +90,7 @@
     <allowedPlaceTags>
       <li>OriginTribal</li>
     </allowedPlaceTags>
-    <iconPath>World/WorldObjects/Expanding/ESCP_ImperialSettlement</iconPath>
+    <iconPath>World/WorldObjects/Expanding/ESCP_RimMenShrine</iconPath>
     <preferredWeaponClasses>
       <noble>MeleePiercer</noble>
       <despised>MeleeBlunt</despised>
