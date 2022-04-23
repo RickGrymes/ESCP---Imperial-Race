@@ -2,7 +2,7 @@
 <Defs> 
 
 	<!-- Cyrodiilic Empire Unification Opinion -->
-
+	<!--
 	<ThoughtDef>
 		<defName>ESCP_ImperialOpinion_EmpireUnification</defName>
 		<thoughtClass>Thought_SituationalSocial</thoughtClass>
@@ -12,6 +12,9 @@
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
                 <traitA>ESCP_Imperial_Nibenese</traitA>
                 <traitB>ESCP_Imperial_Colovian</traitB>
+				<useSpectrum>true</useSpectrum>
+				<traitSpectrumA>1</traitSpectrumA>
+				<traitSpectrumB>1</traitSpectrumB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -23,7 +26,7 @@
 		<nullifyingTraits>
 		</nullifyingTraits>
 	</ThoughtDef>
-	
+	-->
 	<ThoughtDef Name="ESCP_ImperialOpinion_Base" Abstract="True">
 		<thoughtClass>Thought_SituationalSocial</thoughtClass>
         <workerClass>ESCP_RaceTools.ThoughtWorker_UniversalTraitOpinion</workerClass>
@@ -46,13 +49,16 @@
 		<defName>ESCP_ImperialOpinion_ColovianNibenese</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-                <traitA>ESCP_Imperial_Nibenese</traitA>
-                <traitB>ESCP_Imperial_Colovian</traitB>
+                <traitA>ESCP_Imperial_Culture</traitA>
+                <traitB>ESCP_Imperial_Culture</traitB>
+				<useSpectrum>true</useSpectrum>
+				<traitSpectrumA>3</traitSpectrumA>
+				<traitSpectrumB>2</traitSpectrumB>
 			</li>
 		</modExtensions>
 		<stages>
 		  <li>
-			<label>Colovian vs Nibenese</label>
+			<label>Colovain vs Nibenese</label>
 			<baseOpinionOffset>-10</baseOpinionOffset>
 		  </li>
 		</stages>
@@ -62,8 +68,11 @@
 		<defName>ESCP_ImperialOpinion_ColovianHeartlander</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-                <traitA>ESCP_Imperial_Heartlander</traitA>
-                <traitB>ESCP_Imperial_Colovian</traitB>
+                <traitA>ESCP_Imperial_Culture</traitA>
+                <traitB>ESCP_Imperial_Culture</traitB>
+				<useSpectrum>true</useSpectrum>
+				<traitSpectrumA>4</traitSpectrumA>
+				<traitSpectrumB>3</traitSpectrumB>
 			</li>
 		</modExtensions>
 		<stages>
@@ -78,8 +87,11 @@
 		<defName>ESCP_ImperialOpinion_NibeneseHeartlander</defName>
 		<modExtensions>
 			<li Class="ESCP_RaceTools.ThoughtDefProperties">
-                <traitA>ESCP_Imperial_Heartlander</traitA>
-                <traitB>ESCP_Imperial_Nibenese</traitB>
+                <traitA>ESCP_Imperial_Culture</traitA>
+                <traitB>ESCP_Imperial_Culture</traitB>
+				<useSpectrum>true</useSpectrum>
+				<traitSpectrumA>2</traitSpectrumA>
+				<traitSpectrumB>4</traitSpectrumB>
 			</li>
 		</modExtensions>
 		<stages>

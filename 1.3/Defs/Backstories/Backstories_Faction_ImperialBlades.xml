@@ -31,15 +31,18 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>3</degree>
 				<chance>15</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Heartlander</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>4</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Nibenese</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>2</degree>
 				<chance>100</chance>
 			</li>
 		</forcedTraits>
@@ -60,6 +63,8 @@
 				<defName>DrugDesire</defName>
 			</li>
 		</disallowedTraits>
+		<forcedItems>
+		</forcedItems>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<workDisables>
@@ -93,15 +98,18 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>3</degree>
 				<chance>15</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Heartlander</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>4</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Nibenese</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>2</degree>
 				<chance>100</chance>
 			</li>
 		</forcedTraits>
@@ -122,6 +130,8 @@
 				<defName>DrugDesire</defName>
 			</li>
 		</disallowedTraits>
+		<forcedItems>
+		</forcedItems>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<workDisables>
@@ -152,15 +162,18 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Nibenese</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>2</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Heartlander</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>4</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>3</degree>
 				<chance>100</chance>
 			</li>
 			<li>
@@ -212,15 +225,18 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Nibenese</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>2</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Heartlander</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>4</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>3</degree>
 				<chance>100</chance>
 			</li>
 		</forcedTraits>
@@ -270,15 +286,18 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Nibenese</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>2</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Heartlander</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>4</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>3</degree>
 				<chance>100</chance>
 			</li>
 		</forcedTraits>
@@ -323,15 +342,18 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Nibenese</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>2</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Heartlander</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>4</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>3</degree>
 				<chance>100</chance>
 			</li>
 		</forcedTraits>
@@ -373,15 +395,18 @@
 		</skillGains>
 		<forcedTraits>
 			<li>
-			    <defName>ESCP_Imperial_Nibenese</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>2</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Heartlander</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>4</degree>
 				<chance>25</chance>
 			</li>
 			<li>
-			    <defName>ESCP_Imperial_Colovian</defName>
+			  <defName>ESCP_Imperial_Culture</defName>
+				<degree>3</degree>
 				<chance>100</chance>
 			</li>
 		</forcedTraits>

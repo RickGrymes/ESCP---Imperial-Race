@@ -331,9 +331,7 @@
 			<raceRestriction>
 
             	<traitList>
-                	<li>ESCP_Imperial_Colovian</li>
-                	<li>ESCP_Imperial_Nibenese</li>
-                	<li>ESCP_Imperial_Heartlander</li>
+					<li>ESCP_Imperial_Culture</li>
             	</traitList>
             	<blackTraitList>
 					<li>Nudist</li>
@@ -715,9 +713,7 @@
 					</whiteBuildingList> -->
 
             	<traitList>
-                	<li>ESCP_Imperial_Colovian</li>
-                	<li>ESCP_Imperial_Nibenese</li>
-                	<li>ESCP_Imperial_Heartlander</li>
+					<li>ESCP_Imperial_Culture</li>
             	</traitList>
             	<blackTraitList>
 					<li>Nudist</li>
@@ -1030,7 +1026,7 @@
 					</whiteBuildingList> -->
 
             	<traitList>
-                	<li>ESCP_Imperial_RimMen</li>
+                	<li>ESCP_Imperial_Culture</li>
             	</traitList>
             	<blackTraitList>
 					<li>Nudist</li>

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- Colovian -->
+  <!--__________ Imperials __________-->
+
+  <!-- Rim-Men -->
 
   <TraitDef>
-    <defName>ESCP_Imperial_Colovian</defName>
+    <defName>ESCP_Imperial_Culture</defName>
+    <commonality>1</commonality>
     <degreeDatas>
-      <li>
-        <label>Colovian</label>
-        <description>{PAWN_nameDef} is of Colovian blood, hailing from the western part of Cyrodiil. {PAWN_nameDef} is proud of their heritage and the honor that bestows them, be it adventuring across Tamriel or serving honorably in the mighty Imperial Legions.</description>
+	<li>
+        <label>Rim-Men Culture</label>
+        <description>{PAWN_nameDef}s ansestors are outcasts of the Empire. Their mixed Akaviri Tseasci and Imperial blood forcing them from their home in Cyrodiil to the near rim of the Empires influence near Elsweyr.</description>
+        <degree>1</degree>
         <statOffsets>
           <MeleeHitChance>2</MeleeHitChance>
         </statOffsets>
@@ -19,37 +23,17 @@
           </li>
           <li>
             <key>Shooting</key>
-            <value>2</value>
-          </li>
-          <li>
-            <key>Intellectual</key>
-            <value>-2</value>
+            <value>3</value>
           </li>
         </skillGains>
-      </li>
-    </degreeDatas>
-    <conflictingTraits>
-      <li>ESCP_Imperial_Heartlander</li>
-      <li>Wimp</li>
-      <li>ESCP_Imperial_Nibenese</li>
-    </conflictingTraits>
-    <requiredWorkTags>
-      <li>Shooting</li>
-      <li>Violent</li>
-    </requiredWorkTags>
-    <conflictingPassions>
-      <li>Plants</li>
-    </conflictingPassions>
-  </TraitDef>
+    </li>
 
   <!-- Nibenese -->
 
-  <TraitDef>
-    <defName>ESCP_Imperial_Nibenese</defName>
-    <degreeDatas>
       <li>
-        <label>Nibenese</label>
+        <label>Nibenese Culture</label>
         <description>{PAWN_nameDef} comes from the lands around the bay of Nibenay, hailing from the eastern part of Cyrodiil. {PAWN_nameDef} is always looking for ways to make more septims or create something new in order to gain an advantage over someone else.</description>
+        <degree>2</degree>
         <skillGains>
           <li>
             <key>Social</key>
@@ -68,29 +52,39 @@
             <value>-2</value>
           </li>
         </skillGains>
-      </li>
-    </degreeDatas>
-    <conflictingTraits>
-      <li>ESCP_Imperial_Heartlander</li>
-      <li>Brawler</li>
-      <li>ESCP_Imperial_Colovian</li>
-    </conflictingTraits>
-    <requiredWorkTags>
-      <li>Intellectual</li>
-    </requiredWorkTags>
-    <conflictingPassions>
-      <li>Shooting</li>
-    </conflictingPassions>
-  </TraitDef>
+    </li>
+
+  <!-- Colovian -->
+
+      <li>
+        <label>Colovian Culture</label>
+        <description>{PAWN_nameDef} is of Colovian blood, hailing from the western part of Cyrodiil. {PAWN_nameDef} is proud of their heritage and the honor that bestows them, be it adventuring across Tamriel or serving honorably in the mighty Imperial Legions.</description>
+        <degree>3</degree>
+        <statOffsets>
+          <MeleeHitChance>2</MeleeHitChance>
+        </statOffsets>
+        <skillGains>
+          <li>
+            <key>Melee</key>
+            <value>3</value>
+          </li>
+          <li>
+            <key>Shooting</key>
+            <value>2</value>
+          </li>
+          <li>
+            <key>Intellectual</key>
+            <value>-2</value>
+          </li>
+        </skillGains>
+    </li>
 
   <!-- Heartlander -->
 
-  <TraitDef>
-    <defName>ESCP_Imperial_Heartlander</defName>
-    <degreeDatas>
       <li>
-        <label>Heartlander</label>
+        <label>Heartlander Culture</label>
         <description>{PAWN_nameDef} is a true Imperial, coming from the heartlands of Cyrodiil and more specifically the area around the Imperial City and Imperial Isle. {PAWN_nameDef} is a Heartlander, a true heir of Cyrodiil and worthy of the glory of the Empire.</description>
+        <degree>4</degree>
         <statOffsets>
           <MeleeHitChance>2</MeleeHitChance>
         </statOffsets>
@@ -109,55 +103,7 @@
           </li>
         </skillGains>
       </li>
-    </degreeDatas>
-    <conflictingTraits>
-      <li>ESCP_Imperial_Colovian</li>
-      <li>Wimp</li>
-      <li>ESCP_Imperial_Nibenese</li>
-    </conflictingTraits>
-    <requiredWorkTags>
-      <li>Shooting</li>
-      <li>Violent</li>
-    </requiredWorkTags>
-    <conflictingPassions>
-    </conflictingPassions>
-  </TraitDef>
-
-  <!-- Rim-Men -->
-
-  <TraitDef>
-    <defName>ESCP_Imperial_RimMen</defName>
-    <degreeDatas>
-      <li>
-        <label>Rim-Men</label>
-        <description>{PAWN_nameDef}s ansestors are outcasts of the Empire. Their mixed Akaviri Tseasci and Imperial blood forcing them from their home in Cyrodiil to the near rim of the Empires influence near Elsweyr.</description>
-        <statOffsets>
-          <MeleeHitChance>2</MeleeHitChance>
-        </statOffsets>
-        <skillGains>
-          <li>
-            <key>Melee</key>
-            <value>3</value>
-          </li>
-          <li>
-            <key>Shooting</key>
-            <value>3</value>
-          </li>
-        </skillGains>
-      </li>
-    </degreeDatas>
-    <conflictingTraits>
-      <li>ESCP_Imperial_Colovian</li>
-      <li>Wimp</li>
-      <li>ESCP_Imperial_Heartlander</li>
-      <li>ESCP_Imperial_Nibenese</li>
-    </conflictingTraits>
-    <requiredWorkTags>
-      <li>Shooting</li>
-      <li>Violent</li>
-    </requiredWorkTags>
-    <conflictingPassions>
-    </conflictingPassions>
+      </degreeDatas>
   </TraitDef>
 
 </Defs>

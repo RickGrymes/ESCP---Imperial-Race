@@ -29,15 +29,6 @@
 		</skillGains>
 		<disallowedTraits>
 			<li>
-				<defName>ESCP_Imperial_Heartlander</defName>
-			</li>
-            <li>
-				<defName>ESCP_Imperial_Colovian</defName>
-			</li>
-           <li>
-				<defName>ESCP_Imperial_Nibenese</defName>
-			</li>
-			<li>
 				<defName>Wimp</defName>
 			</li>
 		</disallowedTraits>
@@ -67,15 +58,6 @@
 			</li>
 		</skillGains>
 		<disallowedTraits>
-			<li>
-				<defName>ESCP_Imperial_Heartlander</defName>
-			</li>
-            <li>
-				<defName>ESCP_Imperial_Colovian</defName>
-			</li>
-           <li>
-				<defName>ESCP_Imperial_Nibenese</defName>
-			</li>
 			<li>
 				<defName>Wimp</defName>
 			</li>
@@ -111,15 +93,6 @@
 		</forcedTraits>
 		<disallowedTraits>
 			<li>
-				<defName>ESCP_Imperial_Heartlander</defName>
-			</li>
-            <li>
-				<defName>ESCP_Imperial_Colovian</defName>
-			</li>
-           <li>
-				<defName>ESCP_Imperial_Nibenese</defName>
-			</li>
-			<li>
 				<defName>Wimp</defName>
 			</li>
 		</disallowedTraits>
@@ -152,15 +125,6 @@
 		<forcedTraits>
 		</forcedTraits>
 		<disallowedTraits>
-			<li>
-				<defName>ESCP_Imperial_Heartlander</defName>
-			</li>
-            <li>
-				<defName>ESCP_Imperial_Colovian</defName>
-			</li>
-           <li>
-				<defName>ESCP_Imperial_Nibenese</defName>
-			</li>
 			<li>
 				<defName>Wimp</defName>
 			</li>
