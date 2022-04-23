@@ -3,12 +3,13 @@
 
   <!--__________ Imperials __________-->
 
-  <!-- Rim-Men -->
-
   <TraitDef>
     <defName>ESCP_Imperial_Culture</defName>
     <commonality>1</commonality>
     <degreeDatas>
+
+  <!-- Rim-Men -->
+
 	<li>
         <label>Rim-Men Culture</label>
         <description>{PAWN_nameDef}s ansestors are outcasts of the Empire. Their mixed Akaviri Tseasci and Imperial blood forcing them from their home in Cyrodiil to the near rim of the Empires influence near Elsweyr.</description>
