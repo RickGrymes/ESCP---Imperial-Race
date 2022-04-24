@@ -155,7 +155,7 @@
       </li>
     </modExtensions>
 	  <colorSpectrum>
-      <li>(1, 0.2, 0.3)</li>
+      <li>(220, 20, 60)</li>
     </colorSpectrum>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
@@ -245,10 +245,11 @@
       </points>
     </maxPawnCostPerTotalPointsCurve>
 	  <colorSpectrum>
-      <li>(0.8, 0.4, 0.4)</li>
+      <li>(178, 34, 34)</li>
     </colorSpectrum>
 	  <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialColony</factionIconPath>
     <settlementNameMaker>ESCP_NamerSettlementImperialColonies</settlementNameMaker>
+    <settlementTexturePath>World/WorldObjects/Expanding/ESCP_ImperialEastEmpireCompanyColony</settlementTexturePath>
     <disallowedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
       <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
@@ -337,7 +338,7 @@
         </points>
     </maxPawnCostPerTotalPointsCurve>
     <colorSpectrum>
-      <li>(0.8, 0, 0)</li>
+      <li>(128, 0, 0)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialLegion</factionIconPath>
     <settlementTexturePath>World/WorldObjects/Expanding/ESCP_ImperialLegionFort</settlementTexturePath>
@@ -453,7 +454,7 @@
         </li>
     </modExtensions>
 	  <colorSpectrum>
-      <li>(0.8, 0.1, 0.2)</li>
+      <li>(139, 0, 0)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialLegionAlt</factionIconPath>
     <settlementTexturePath>World/WorldObjects/Expanding/ESCP_ImperialColovianCity</settlementTexturePath>
@@ -538,7 +539,7 @@
       </li>
     </modExtensions>
 	  <colorSpectrum>
-      <li>(1, 0, 0)</li>
+      <li>(255, 0, 0)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/ESCP_ImperialRaider</factionIconPath>
     <permanentEnemy>true</permanentEnemy>
@@ -653,7 +654,7 @@
       </points>
     </maxPawnCostPerTotalPointsCurve>
 	  <colorSpectrum>
-      <li>(0.8, 0, 0.5)</li>
+      <li>(219, 112, 147)</li>
     </colorSpectrum>
 	  <factionIconPath>World/WorldObjects/Expanding/ESCP_RimMenShrine</factionIconPath>
     <settlementNameMaker>ESCP_NamerSettlementRimMen</settlementNameMaker>
