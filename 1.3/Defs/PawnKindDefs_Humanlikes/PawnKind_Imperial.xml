@@ -71,6 +71,55 @@
 			<li>MedievalBasic</li>
 		</apparelTags>
 		<weaponTags>
+      		<li>NeolithicRangedDecent</li>
+      		<li>MedievalMeleeAdvanced</li>
+      		<li>MedievalMeleeBasic</li>
+		</weaponTags>
+		<apparelMoney>350~600</apparelMoney>
+		<weaponMoney>500~500</weaponMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+		</techHediffsTags>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~17</initialResistanceRange>	
+	</PawnKindDef>
+
+	<!-- Imperial Rim-Men Chief -->
+
+	<PawnKindDef>
+		<defName>ESCP_ImperialRimMen_Potentate</defName>
+		<label>Potentate</label>
+		<factionLeader>true</factionLeader>
+		<race>ESCP_ImperialTsaesciRace</race>
+		<trader>true</trader>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>ESCP_ImperialRimMenBackstory</li>
+					<li>ESCP_ImperialRimMenChildBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>	
+		<combatPower>45</combatPower>
+		<baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+		<isFighter>true</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelTags>
+			<li>MedievalMilitary</li>
+			<li>MedievalBasic</li>
+		</apparelTags>
+		<weaponTags>
+      		<li>NeolithicRangedDecent</li>
+      		<li>MedievalMeleeAdvanced</li>
       		<li>MedievalMeleeBasic</li>
 		</weaponTags>
 		<apparelMoney>350~600</apparelMoney>
@@ -733,6 +782,7 @@
 	<PawnKindDef>
 		<defName>ESCP_Imperial_IV_Legion_General</defName>
 		<label>Imperial Legion General</label>
+    	<factionLeader>true</factionLeader>
 		<race>ESCP_ImperialRace</race>
 		<backstoryFiltersOverride>
 		<li>
@@ -975,6 +1025,7 @@
 	<PawnKindDef>
 		<defName>ESCP_Imperial_Navy_Admiral</defName>
 		<label>Imperial Navy Admiral</label>
+    	<factionLeader>true</factionLeader>
 		<race>ESCP_ImperialRace</race>
 		<backstoryFiltersOverride>
 		<li>

@@ -1141,7 +1141,7 @@
 	<!-- Imperial Erotic Novelist -->
 	
 	<AlienRace.BackstoryDef>
-		<defName MayRequire="Rick.ESCPMinotaurRace">ESCP_Imperial_EroticNovelistBackstory</defName>
+		<defName>ESCP_Imperial_EroticNovelistBackstory</defName>
 		<title>Erotic novelist</title>
 		<titleShort>Erotic novelist</titleShort>
 		<baseDescription>[PAWN_nameDef] has made a small fortune in writing, the books follow charecters and their extorts. The books also follow a more... erotic side, with multiple tendencies for erotic personification as well as a copius amounts of xenophilia.</baseDescription>

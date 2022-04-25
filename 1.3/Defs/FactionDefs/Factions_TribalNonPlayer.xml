@@ -198,6 +198,7 @@
           <ESCP_Imperial_Watch>20</ESCP_Imperial_Watch>
           <ESCP_Imperial_Watch_Horseman>10</ESCP_Imperial_Watch_Horseman>
           <ESCP_Imperial_Watch_Palace_Guard>5</ESCP_Imperial_Watch_Palace_Guard>
+          <ESCP_Imperial_IV_Legion_General>1</ESCP_Imperial_IV_Legion_General>
         </options>
       </li>
       <li>
@@ -500,6 +501,7 @@
           <ESCP_Imperial_Watch>20</ESCP_Imperial_Watch>
           <ESCP_Imperial_Watch_Horseman>10</ESCP_Imperial_Watch_Horseman>
           <ESCP_Imperial_Watch_Palace_Guard>5</ESCP_Imperial_Watch_Palace_Guard>
+          <ESCP_Imperial_IV_Legion_General>1</ESCP_Imperial_IV_Legion_General>
         </options>
       </li>
       <li>
@@ -564,6 +566,7 @@
           <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
           <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
           <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+          <ESCP_Imperial_IV_Legion_General>1</ESCP_Imperial_IV_Legion_General>
 	      </options>
       </li>
       <li>
@@ -585,7 +588,7 @@
         </options>
       </li>
       <li>
-        <!-- Normal fights, ranged only with Orsimer mix-ins -->
+        <!-- Normal fights, ranged only with Orsimer and Dunmer mix-ins -->
         <kindDef>Combat</kindDef>
         <commonality>40</commonality>
         <options>
@@ -606,18 +609,7 @@
           <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>10</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
           <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
           <ESCP_Imperial_IV_Legion_Heavy_Legionary>5</ESCP_Imperial_IV_Legion_Heavy_Legionary>
-        </options>
-      </li>
-      <li>
-        <!-- breach-capable fights, breachers plus ranged with melee mix-ins -->
-        <kindDef>Combat</kindDef>
-        <commonality>5</commonality>
-        <options>
-          <ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer MayRequire="SirMashedPotato.ESCP.Orsimer">5</ESCP_Imperial_IV_Legion_Heavy_LegionaryOrsimer>
-          <ESCP_Imperial_IV_Legion_Light_Legionary>10</ESCP_Imperial_IV_Legion_Light_Legionary>
-          <ESCP_Imperial_IV_Legion_Light_Studded_Legionary>5</ESCP_Imperial_IV_Legion_Light_Studded_Legionary>
-          <ESCP_Imperial_IV_Legion_Legionary>10</ESCP_Imperial_IV_Legion_Legionary>
-          <ESCP_Imperial_IV_Legion_Heavy_Legionary>10</ESCP_Imperial_IV_Legion_Heavy_Legionary>
+          <ESCP_Imperial_IV_Legion_General>1</ESCP_Imperial_IV_Legion_General>
         </options>
       </li>
       </pawnGroupMakers>
@@ -680,7 +672,8 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <ESCP_ImperialRimMen_Citizen>5</ESCP_ImperialRimMen_Citizen>
+          <ESCP_ImperialRimMen_Citizen>25</ESCP_ImperialRimMen_Citizen>
+          <ESCP_ImperialRimMen_Potentate>1</ESCP_ImperialRimMen_Potentate>
         </options>
       </li>
       <li>
@@ -695,13 +688,13 @@
           <Elephant>2</Elephant>
         </carriers>
         <guards>
-          <ESCP_ImperialRimMen_Citizen>7</ESCP_ImperialRimMen_Citizen>
+          <ESCP_ImperialRimMen_Citizen>5</ESCP_ImperialRimMen_Citizen>
         </guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <ESCP_ImperialRimMen_Citizen>7</ESCP_ImperialRimMen_Citizen>
+          <ESCP_ImperialRimMen_Citizen>35</ESCP_ImperialRimMen_Citizen>
         </options>
       </li>
       <li>
