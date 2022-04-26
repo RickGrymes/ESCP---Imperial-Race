@@ -117,7 +117,7 @@
 		<defName>ESCP_Imperial_DarkBrotherhoodListenerBackstory</defName>
 		<title>Listener</title>
 		<titleShort>Listener</titleShort>
-		<baseDescription>[PAWN_nameDef] is a member of the Dark Brotherhood, and holds the rank of listener. [PAWN_nameDef] can hear the call of the nightmother speaking to them, [PAWN_possessive] voice utters the words and commands that the nightmother demands of those who perform the black sacrament. Thelistener then gives these names to the speaker so that the tasks may be carried out.</baseDescription>
+		<baseDescription>[PAWN_nameDef] is a member of the Dark Brotherhood, and holds the rank of listener. [PAWN_nameDef] can hear the call of the nightmother speaking to them, [PAWN_possessive] voice utters the words and commands that the nightmother demands of those who perform the black sacrament. The listener then gives these names to the speaker so that the tasks may be carried out.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
