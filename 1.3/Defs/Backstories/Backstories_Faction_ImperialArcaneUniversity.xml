@@ -64,8 +64,7 @@
 		<titleShort>Arcane university Student</titleShort>
 		<baseDescription>[PAWN_nameDef] is a student of the most prestigious arcane university in the Empire. Learning to be a mage and one day join the Imperial guard.</baseDescription>
 		<slot>Adulthood</slot>
-		<bodyTypeMale>Male</bodyTypeMale>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Thin</bodyTypeGlobal>
 		<spawnCategories>
 		  <li>ESCP_ImperialBackstory</li>
 		</spawnCategories>
