@@ -8,8 +8,8 @@
 	<AlienRace.BackstoryDef>
 		<defName>ESCP_Imperial_ArcaneUniversityStudentBackstory</defName>
 		<title>Arcane university student</title>
-		<titleShort>Arcane university StudentBackstory</titleShort>
-		<baseDescription>[PAWN_nameDef] is a student of the most prestigious arcane university in the Empire. Learning to be a mage and one day join the Imperial guard</baseDescription>
+		<titleShort>Arcane university Student</titleShort>
+		<baseDescription>[PAWN_nameDef] is a student of the most prestigious arcane university in the Empire. Learning to be a mage and one day join the Imperial guard.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
@@ -62,7 +62,7 @@
 		<defName>ESCP_Imperial_ArcaneUniversityStudentBackstoryAlt</defName>
 		<title>Arcane university student</title>
 		<titleShort>Arcane university Student</titleShort>
-		<baseDescription>[PAWN_nameDef] is a student of the most prestigious arcane university in the Empire. Learning to be a mage and one day join the Imperial guard</baseDescription>
+		<baseDescription>[PAWN_nameDef] is a student of the most prestigious arcane university in the Empire. Learning to be a mage and one day join the Imperial guard.</baseDescription>
 		<slot>Adulthood</slot>
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
