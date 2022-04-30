@@ -93,7 +93,7 @@
 		<label>New Imperial Kingdom</label>
 		<description>A small Imperial kingdom.</description>
 		<isPlayer>true</isPlayer>
-		<pawnSingular>Impeiral Citizen</pawnSingular>
+		<pawnSingular>Imperial Citizen</pawnSingular>
 		<pawnsPlural>Imperial Citizens</pawnsPlural>
 		<basicMemberKind>ESCP_Imperial_Citizen</basicMemberKind>
 		<techLevel>Medieval</techLevel>
